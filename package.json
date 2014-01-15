@@ -1,0 +1,28 @@
+{
+  "name": "node-anidb",
+  "version": "0.0.1",
+  "description": "Basic AniDB requester. Supply your own clientid.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "~0.2.9",
+    "bops": "~0.1.1",
+    "xml2js": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulAvery/node-anidb.git"
+  },
+  "keywords": [
+    "anidb"
+  ],
+  "author": "Florian Albertz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulAvery/node-anidb/issues"
+  },
+  "homepage": "https://github.com/PaulAvery/node-anidb"
+}
