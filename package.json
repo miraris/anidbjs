@@ -1,5 +1,5 @@
 {
-  "name": "node-anidb",
+  "name": "anidb",
   "version": "0.0.1",
   "description": "Basic AniDB requester. Supply your own clientid.",
   "main": "index.js",
