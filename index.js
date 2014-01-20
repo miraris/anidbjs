@@ -28,11 +28,9 @@ Db.prototype.request = function(opts, cb) {
 	opts.clientver = this._version;
 	opts.protover = anidbver;
 
-	var url = anidburl+'?'+$querystring.stringify(opts);
+	var url = anidburl + '?' + $querystring.stringify(opts);
 	$http.get(url, function(res) {
 		res.on('error', cb);
-
-		console.log(res.headers);
 
 		res.pipe(gunzip);
 	}).on('error', cb);
