@@ -1,16 +1,12 @@
 {
   "name": "anidb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Basic AniDB requester. Supply your own clientid.",
   "main": "index.js",
   "dependencies": {
     "async": "~0.2.9",
     "bops": "~0.1.1",
     "xml2js": "~0.4.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
