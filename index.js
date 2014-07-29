@@ -1,9 +1,7 @@
-var $http = require('http');
+var $request = require('request');
 var $querystring = require('querystring');
-var $bops = require('bops');
-var $zlib = require('zlib');
 var $xml = require('xml2js');
-var $async = require('async');
+var $_ = require('lodash');
 
 var anidburl = 'http://api.anidb.net:9001/httpapi';
 var anidbver = 1;
@@ -13,39 +11,61 @@ function Db(client, version) {
 	this._version = version;
 }
 
+Db.prototype.successfullResponse = function(response){
+	var successCodes = [200,201];
+	return (successCodes.indexOf(response.statusCode) !== -1)
+}
+
 Db.prototype.request = function(opts, cb) {
-	var buffer = [];
-	var gunzip = $zlib.createGunzip();
-	gunzip.on('data', function(data) {
-		buffer.push(data);
-	});
-	gunzip.on('end', function() {
-		cb(null, $bops.join(buffer).toString());
-	});
-
-
+	var self = this;
 	opts.client = this._client;
 	opts.clientver = this._version;
 	opts.protover = anidbver;
 
 	var url = anidburl + '?' + $querystring.stringify(opts);
-	$http.get(url, function(res) {
-		res.on('error', cb);
+	
+	$request({url:url, gzip:true}, function (error, response, body){
+		if(error) 
+			return cb(error, null);
+		
+		if(!self.successfullResponse(response)) 
+			return cb(new Error('Did not return a successfull response from anidb. Returned ' + response.statusCode), null)
 
-		res.pipe(gunzip);
-	}).on('error', cb);
+		$xml.parseString(body, cb);
+
+	});
 }
 
 Db.prototype.getAnime = function(id, cb) {
 	var opts = {
 		request: 'anime',
 		aid: id
-	}
+	};
 
-	$async.waterfall([
-		this.request.bind(this, opts),
-		$xml.parseString
-	], cb);
+	throw new Error('Not implemented yet..');
+}
+
+Db.prototype.getGenres = function(cb){
+	var opts = {
+		request: 'categorylist',
+	};
+
+	this.request(opts, function(err, response){
+		if(err) return cb(err);
+
+		var categories = response.categorylist.category.map(function(category){
+			return {
+				id: category.$.id,
+				name: category.name[0],
+				description: category.description ? category.description[0] : '',
+				ishentai: category.$.ishentai,
+				parentid: category.$.parentid
+			};
+		});
+
+		cb(null, categories)
+
+	});
 }
 
 module.exports = Db;
