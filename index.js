@@ -2,6 +2,7 @@ var $request = require('request');
 var $querystring = require('querystring');
 var $xml = require('xml2js');
 var $_ = require('lodash');
+var mapping = require('./mapping');
 
 var anidburl = 'http://api.anidb.net:9001/httpapi';
 var anidbver = 1;
@@ -12,8 +13,8 @@ function Db(client, version) {
 }
 
 Db.prototype.successfullResponse = function(response){
-	var successCodes = [200,201];
-	return (successCodes.indexOf(response.statusCode) !== -1)
+	var error = '<error>Banned</error>';
+	return response.body.indexOf(error) === -1;
 }
 
 Db.prototype.request = function(opts, cb) {
@@ -29,9 +30,9 @@ Db.prototype.request = function(opts, cb) {
 			return cb(error, null);
 		
 		if(!self.successfullResponse(response)) 
-			return cb(new Error('Did not return a successfull response from anidb. Returned ' + response.statusCode), null)
+			return cb(new Error('Did not return a successfull response from anidb. Returned ' + response.body), null)
 
-		$xml.parseString(body, cb);
+		$xml.parseString(body, { explicitRoot: false }, cb);
 
 	});
 }
@@ -42,7 +43,10 @@ Db.prototype.getAnime = function(id, cb) {
 		aid: id
 	};
 
-	throw new Error('Not implemented yet..');
+	this.request(opts, function(err, response){
+		if(err) return cb(err);
+		cb(null, mapping.mapAnime(response));
+	});
 }
 
 Db.prototype.getGenres = function(cb){
@@ -52,18 +56,7 @@ Db.prototype.getGenres = function(cb){
 
 	this.request(opts, function(err, response){
 		if(err) return cb(err);
-
-		var categories = response.categorylist.category.map(function(category){
-			return {
-				id: category.$.id,
-				name: category.name[0],
-				description: category.description ? category.description[0] : '',
-				ishentai: category.$.ishentai,
-				parentid: category.$.parentid
-			};
-		});
-
-		cb(null, categories)
+		cb(null, mapping.mapGenres(response));
 
 	});
 }
