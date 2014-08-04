@@ -1,4 +1,6 @@
-exports.mapGenre = function(category){
+function Mapper() {}
+
+Mapper.prototype.mapGenre = function(category){
     return {
         id: category.$.id,
         name: category.name[0],
@@ -9,11 +11,11 @@ exports.mapGenre = function(category){
     };
 };
 
-exports.mapGenres = function(parsed){
-    return parsed.category.map(exports.mapGenre);
+Mapper.prototype.mapGenres = function(parsed){
+    return parsed.category.map(this.mapGenre, this);
 };
 
-exports.mapTitles = function(title){
+Mapper.prototype.mapTitle = function(title){
     return {
         title: title._,
         language: title.$['xml:lang'],
@@ -21,8 +23,7 @@ exports.mapTitles = function(title){
     };
 };
 
-exports.mapTag = function(tag){
-    console.log(tag);
+Mapper.prototype.mapTag = function(tag){
     return {
         id: tag.$.id,
         approval: tag.$.approval,
@@ -32,29 +33,39 @@ exports.mapTag = function(tag){
         update: tag.$.update,
         name: tag.name[0],
         count: tag.count[0],
-        description: tag.description[0]
+        description: tag.description ? tag.description[0] : ''
     };
 };
 
 // TODO: Implement mapping for this
-exports.mapEpisode = function(episode){
-    console.log(episode);
-    return episode;
+Mapper.prototype.mapEpisode = function(episode){
+    return {
+        id: episode.$.id,
+        update: episode.$.update,
+        epno: episode.epno[0]._,
+        type: episode.epno[0].$.type,
+        length: episode.length[0],
+        airdate: episode.airdate[0],
+        rating: episode.rating ? episode.rating[0]._ : null,
+        votes: episode.rating ? episode.rating[0].$.votes : null,
+        titles: episode.title.map(this.mapTitle, this)
+    };
 };
 
-exports.mapAnime = function(anime){
-    console.log(anime);
+Mapper.prototype.mapAnime = function(anime){
     return {
         id: anime.$.id,
         type: anime.type[0],
         episodecount: anime.episodecount[0],
         startdate: anime.startdate[0],
         enddate: anime.enddate[0],
-        titles: anime.titles[0].title.map(exports.mapTitles),
+        titles: anime.titles[0].title.map(this.mapTitle, this),
         description: anime.description[0],
         picture: anime.picture[0],
-        categories: anime.categories[0].category.map(exports.mapGenre),
-        tags: anime.tags[0].tag.map(exports.mapTag),
-        episodes: anime.episodes
+        categories: anime.categories[0].category.map(this.mapGenre, this),
+        tags: anime.tags[0].tag.map(this.mapTag),
+        episodes: anime.episodes[0].episode.map(this.mapEpisode, this)
     };
 };
+
+module.exports = Mapper;

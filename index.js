@@ -2,7 +2,7 @@ var $request = require('request');
 var $querystring = require('querystring');
 var $xml = require('xml2js');
 var $_ = require('lodash');
-var mapping = require('./mapping');
+var Mapper = require('./mapping');
 
 var anidburl = 'http://api.anidb.net:9001/httpapi';
 var anidbver = 1;
@@ -10,6 +10,7 @@ var anidbver = 1;
 function Db(client, version) {
 	this._client = client;
 	this._version = version;
+	this._mapper = new Mapper();
 }
 
 Db.prototype.successfullResponse = function(response){
@@ -38,25 +39,27 @@ Db.prototype.request = function(opts, cb) {
 }
 
 Db.prototype.getAnime = function(id, cb) {
-	var opts = {
-		request: 'anime',
-		aid: id
-	};
+	var self = this,
+		opts = {
+			request: 'anime',
+			aid: id
+		};
 
 	this.request(opts, function(err, response){
 		if(err) return cb(err);
-		cb(null, mapping.mapAnime(response));
+		cb(null, self._mapper.mapAnime(response));
 	});
 }
 
 Db.prototype.getGenres = function(cb){
-	var opts = {
-		request: 'categorylist',
-	};
+	var self = this,
+		opts = {
+			request: 'categorylist',
+		};
 
 	this.request(opts, function(err, response){
 		if(err) return cb(err);
-		cb(null, mapping.mapGenres(response));
+		cb(null, self_mapper.mapGenres(response));
 
 	});
 }
