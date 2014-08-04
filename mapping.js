@@ -1,10 +1,15 @@
 function Mapper() {}
 
+Mapper.prototype.firstOrDefault = function(possibleArray){
+    if(typeof possibleArray == 'undefined') return null;
+    return possibleArray[0];
+};
+
 Mapper.prototype.mapGenre = function(category){
     return {
         id: category.$.id,
-        name: category.name[0],
-        description: category.description ? category.description[0] : '',
+        name: this.firstOrDefault(category.name),
+        description: this.firstOrDefault(category.description),
         ishentai: category.$.ishentai,
         parentid: category.$.parentid,
         weight: category.$.weight
@@ -31,9 +36,9 @@ Mapper.prototype.mapTag = function(tag){
         localspoiler: tag.$.localspoiler,
         globalspoiler: tag.$.globalspoiler,
         update: tag.$.update,
-        name: tag.name[0],
-        count: tag.count[0],
-        description: tag.description ? tag.description[0] : ''
+        name: this.firstOrDefault(tag.name),
+        count: this.firstOrDefault(tag.count),
+        description: this.firstOrDefault(tag.description)
     };
 };
 
@@ -44,26 +49,26 @@ Mapper.prototype.mapEpisode = function(episode){
         update: episode.$.update,
         epno: episode.epno[0]._,
         type: episode.epno[0].$.type,
-        length: episode.length[0],
-        airdate: episode.airdate[0],
-        rating: episode.rating ? episode.rating[0]._ : null,
+        length: this.firstOrDefault(episode.length),
+        airdate: this.firstOrDefault(episode.airdate),
+        rating: this.firstOrDefault(episode.rating),
         votes: episode.rating ? episode.rating[0].$.votes : null,
-        titles: episode.title.map(this.mapTitle, this)
+        titles: episode.title ? episode.title.map(this.mapTitle, this) : null
     };
 };
 
 Mapper.prototype.mapAnime = function(anime){
     return {
         id: anime.$.id,
-        type: anime.type[0],
-        episodecount: anime.episodecount[0],
-        startdate: anime.startdate[0],
-        enddate: anime.enddate[0],
-        titles: anime.titles[0].title.map(this.mapTitle, this),
-        description: anime.description[0],
-        picture: anime.picture[0],
+        type: this.firstOrDefault(anime.type),
+        episodecount: this.firstOrDefault(anime.episodecount),
+        startdate: this.firstOrDefault(anime.startdate),
+        enddate: this.firstOrDefault(anime.enddate),
+        titles: anime.titles ? anime.titles[0].title.map(this.mapTitle, this) : null,
+        description: this.firstOrDefault(anime.description),
+        picture: this.firstOrDefault(anime.picture),
         categories: anime.categories[0].category.map(this.mapGenre, this),
-        tags: anime.tags[0].tag.map(this.mapTag),
+        tags: anime.tags[0].tag.map(this.mapTag, this),
         episodes: anime.episodes[0].episode.map(this.mapEpisode, this)
     };
 };
