@@ -59,7 +59,7 @@ Db.prototype.getGenres = function(cb){
 
 	this.request(opts, function(err, response){
 		if(err) return cb(err);
-		cb(null, self_mapper.mapGenres(response));
+		cb(null, self._mapper.mapGenres(response));
 
 	});
 }
