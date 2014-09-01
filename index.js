@@ -1,8 +1,8 @@
-var $request = require('request');
-var $querystring = require('querystring');
-var $xml = require('xml2js');
-var $_ = require('lodash');
-var Mapper = require('./mapping');
+var $request = require('request'),
+	$querystring = require('querystring'),
+	$xml = require('xml2js'),
+	$_ = require('lodash'),
+	Mapper = require('./mapping');
 
 var anidburl = 'http://api.anidb.net:9001/httpapi';
 var anidbver = 1;
