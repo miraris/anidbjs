@@ -5,6 +5,11 @@ Mapper.prototype.firstOrDefault = function(possibleArray){
     return possibleArray[0];
 };
 
+Mapper.prototype.tryParseInt = function(possibleNumber){
+    if(typeof possibleNumber == 'undefined' || possibleNumber == null) return;
+    return parseInt(possibleNumber, 10);
+};
+
 Mapper.prototype.mapGenre = function(category){
     return {
         id: category.$.id,
@@ -37,7 +42,7 @@ Mapper.prototype.mapTag = function(tag){
         globalspoiler: tag.$.globalspoiler,
         update: tag.$.update,
         name: this.firstOrDefault(tag.name),
-        count: this.firstOrDefault(tag.count),
+        count: this.tryParseInt(this.firstOrDefault(tag.count)),
         description: this.firstOrDefault(tag.description)
     };
 };
@@ -45,11 +50,11 @@ Mapper.prototype.mapTag = function(tag){
 // TODO: Implement mapping for this
 Mapper.prototype.mapEpisode = function(episode){
     return {
-        id: episode.$.id,
+        id: this.tryParseInt(episode.$.id),
         update: episode.$.update,
-        epno: episode.epno[0]._,
-        type: episode.epno[0].$.type,
-        length: this.firstOrDefault(episode.length),
+        epno: this.tryParseInt(episode.epno[0]._),
+        type: this.tryParseInt(episode.epno[0].$.type),
+        length: this.tryParseInt(this.firstOrDefault(episode.length)),
         airdate: this.firstOrDefault(episode.airdate),
         rating: this.firstOrDefault(episode.rating),
         votes: episode.rating ? episode.rating[0].$.votes : null,
@@ -61,7 +66,7 @@ Mapper.prototype.mapAnime = function(anime){
     return {
         id: anime.$.id,
         type: this.firstOrDefault(anime.type),
-        episodecount: this.firstOrDefault(anime.episodecount),
+        episodecount: this.tryParseInt(this.firstOrDefault(anime.episodecount)),
         startdate: this.firstOrDefault(anime.startdate),
         enddate: this.firstOrDefault(anime.enddate),
         titles: anime.titles ? anime.titles[0].title.map(this.mapTitle, this) : null,

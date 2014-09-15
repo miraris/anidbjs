@@ -14,8 +14,8 @@ function Db(client, version) {
 }
 
 Db.prototype.successfullResponse = function(response){
-	var error = '<error>Banned</error>';
-	return response.body.indexOf(error) === -1;
+	var errors = ['<error>Banned</error>','<error>Client Values Missing or Invalid</error>'];
+	return errors.indexOf(response.body) === -1;
 }
 
 Db.prototype.request = function(opts, cb) {
