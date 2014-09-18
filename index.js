@@ -2,15 +2,17 @@ var $request = require('request'),
 	$querystring = require('querystring'),
 	$xml = require('xml2js'),
 	$_ = require('lodash'),
-	Mapper = require('./mapping');
+	Mapper = require('./mapping'),
+	rateLimit = require('function-rate-limit');
 
 var anidburl = 'http://api.anidb.net:9001/httpapi';
 var anidbver = 1;
 
-function Db(client, version) {
+function Db(client, version, msBetweenRequests) {
 	this._client = client;
 	this._version = version;
 	this._mapper = new Mapper();
+	this.msBetweenRequests = msBetweenRequests || 0;
 }
 
 Db.prototype.successfullResponse = function(response){
@@ -26,7 +28,7 @@ Db.prototype.request = function(opts, cb) {
 
 	var url = anidburl + '?' + $querystring.stringify(opts);
 	
-	$request({url:url, gzip:true}, function (error, response, body){
+	rateLimit(1, self.msBetweenRequests, $request({url:url, gzip:true}, function (error, response, body){
 		if(error) 
 			return cb(error, null);
 		
@@ -35,7 +37,7 @@ Db.prototype.request = function(opts, cb) {
 
 		$xml.parseString(body, { explicitRoot: false }, cb);
 
-	});
+	}));
 }
 
 Db.prototype.getAnime = function(id, cb) {
