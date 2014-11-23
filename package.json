@@ -16,10 +16,18 @@
   "keywords": [
     "anidb"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "author": "Florian Albertz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PaulAvery/node-anidb/issues"
   },
-  "homepage": "https://github.com/PaulAvery/node-anidb"
+  "homepage": "https://github.com/PaulAvery/node-anidb",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "objectdiff": "^1.1.0",
+    "should": "^4.3.0"
+  }
 }

@@ -9,11 +9,17 @@ var anidburl = 'http://api.anidb.net:9001/httpapi';
 var anidbver = 1;
 
 function Db(client, version, msBetweenRequests) {
+	if(client === undefined || version === undefined)
+		throw new Error('Insufficient arguments, new anidb(client, version, [msBetweenRequests])');
 	this._client = client;
 	this._version = version;
 	this._mapper = new Mapper();
 	this.msBetweenRequests = msBetweenRequests || 0;
 }
+
+Db.prototype._doRequest = function(options, callback){
+	return $request(options, callback);
+};
 
 Db.prototype.successfullResponse = function(response){
 	var errors = ['<error>Banned</error>','<error>Client Values Missing or Invalid</error>'];
@@ -28,14 +34,14 @@ Db.prototype.request = function(opts, cb) {
 
 	var url = anidburl + '?' + $querystring.stringify(opts);
 	
-	rateLimit(1, self.msBetweenRequests, $request({url:url, gzip:true}, function (error, response, body){
+	rateLimit(1, self.msBetweenRequests, this._doRequest({url:url, gzip:true}, function (error, response, body){
 		if(error) 
 			return cb(error, null);
 		
 		if(!self.successfullResponse(response)) 
 			return cb(new Error('Did not return a successfull response from anidb. Returned ' + response.body), null)
 
-		$xml.parseString(body, { explicitRoot: false }, cb);
+		$xml.parseString(body, { explicitRoot: false, explicitArray: false }, cb);
 
 	}));
 }

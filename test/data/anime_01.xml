@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anime id="1000" restricted="false">
+    <type>TV Series</type>
+    <episodecount>26</episodecount>
+    <startdate>2003-10-05</startdate>
+    <enddate>2004-04-11</enddate>
+    <titles>
+        <title xml:lang="x-jat" type="main">Ginga Tetsudou Monogatari</title>
+        <title xml:lang="zh-Hans" type="synonym">银河铁道物语</title>
+        <title xml:lang="en" type="short">Galaxy Railways</title>
+        <title xml:lang="en" type="short">GaRa</title>
+        <title xml:lang="en" type="short">grail</title>
+        <title xml:lang="en" type="short">gr</title>
+        <title xml:lang="ja" type="official">銀河鉄道物語</title>
+        <title xml:lang="en" type="official">The Galaxy Railways</title>
+        <title xml:lang="fr" type="official">The Galaxy Railways</title>
+    </titles>
+    <relatedanime>
+        <anime id="5050" type="Sequel">Ginga Tetsudou Monogatari: Wasurerareta Toki no Wakusei</anime>
+        <anime id="484" type="Prequel">Ginga Tetsudou 999</anime>
+    </relatedanime>
+    <url>http://www.planet-e.co.jp/galaxy_railways/</url>
+    <creators>
+        <name id="6825" type="Character Design">Takeda Itsuko</name>
+    </creators>
+    <description>The story begins on planet Destiny, which claimed to be where the center of the Universe is, where all the terminals of "The Galaxy Railways" are gathered.
+        The main character, Yuuki Manabu (20 years old), carrying on his dead Father and Brother`s will, joined SDF (Space Defense Force) to protect the safety of the Galaxy Railways. SDF, in order to uphold the reputation of maintaining the best transportation schedules within the Universe, deals with accidents, natural disasters, rescue operations, space pirates along all lines of the railway.
+        Layla Destiny Shura is a mysterious beauty unifying SDF and all lines on The Galaxy Railways. She possesses the ability to see the destiny of planets, human beings and living things. Even though possessing such powers, she, being a "Guardian of Destiny", is unable to tell passengers leaving this station what difficulties lies ahead of them.
+        However, appearances of those who uses evil powers to change the destinies of these travelers triggers another of her hidden ability. "Destiny is changed by the individual`s oneself. Tomorrow`s happiness is grabbed by the individual`s own hands."
+        In what manner will Yuuki`s destiny be seen by Layla?
+        And, how will Yuuki deal with his destiny amidst the greatest crisis approaching The Galaxy Railways?</description>
+    <ratings>
+        <permanent count="306">5.15</permanent>
+        <temporary count="311">6.92</temporary>
+        <review count="2">4.49</review>
+    </ratings>
+    <picture>148789.jpg</picture>
+    <categories>
+        <category id="4" parentid="313" hentai="false" weight="400">
+            <name>Action</name>
+            <description>Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting. </description>
+        </category>
+    </categories>
+    <tags>
+        <tag id="181" approval="1" spoiler="false" localspoiler="false" globalspoiler="true" update="2009-05-22">
+            <name>everybody dies</name>
+            <count>142</count>
+            <description>Not necessarily everyone, but a good portion of the characters kick the bucket.</description>
+        </tag>
+    </tags>
+    <characters>
+        <character id="4408" type="main character in" update="2009-03-07">
+            <rating votes="6">4.33</rating>
+            <name>Yuki Manabu</name>
+            <gender>male</gender>
+            <charactertype id="1">Character</charactertype>
+            <picture>20482.jpg</picture>
+            <seiyuu id="41" picture="16630.jpg">Yanagi Naoki</seiyuu>
+        </character>
+    </characters>
+    <episodes>
+        <episode id="11642" update="2007-05-15">
+            <epno type="1">1</epno>
+            <length>25</length>
+            <airdate>2003-10-05</airdate>
+            <rating votes="1">8.98</rating>
+            <title xml:lang="ja">旅立ち</title>
+            <title xml:lang="en">Sacrifice</title>
+            <title xml:lang="fr">Le grand départ</title>
+            <title xml:lang="x-jat">Tabidachi</title>
+        </episode>
+    </episodes>
+</anime>
