@@ -37,11 +37,14 @@ describe('AniDb: Anime', function () {
 
   it('Anime 01 should give expected result', function (done) {
     returnFile = './test/data/anime_01.xml'
-    client.getAnime(1, function (err, anime) {
-      var expected = require('./expected/anime_01.js')
-      toEqualOwnProperties(anime, expected)
-      done()
-    })
+    client
+      .getAnime(1)
+      .then(anime => {
+        var expected = require('./expected/anime_01.js')
+        toEqualOwnProperties(anime, expected)
+        done()
+      })
+      .catch(error => console.error(error))
   })
 
   it('Genres should give expected result', function (done) {

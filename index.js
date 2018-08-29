@@ -1,94 +1,78 @@
-const $request = require('request')
-const $querystring = require('querystring')
-const $xml = require('xml2js')
+const axios = require('axios')
+const xml2js = require('xml2js')
 const Mapper = require('./mapping')
-const rateLimit = require('function-rate-limit')
+const util = require('util')
 
-const anidburl = 'http://api.anidb.net:9001/httpapi'
-const anidbver = 1
-
-function Db (client, version, msBetweenRequests = 0) {
-  if (client === undefined || version === undefined) {
-    throw new Error(
-      'Insufficient arguments, new anidb(client, version, [msBetweenRequests])'
-    )
+class AniDB {
+  constructor (client, version) {
+    try {
+      this.client = client
+      this.version = version
+      this.mapper = new Mapper()
+    } catch (error) {
+      console.error(error)
+    }
   }
-  this._client = client
-  this._version = version
-  this._mapper = new Mapper()
-  this.msBetweenRequests = msBetweenRequests
-}
 
-Db.prototype._doRequest = function (options, callback) {
-  return $request(options, callback)
-}
+  /**
+   * The request function
+   * @param {object} opts
+   */
+  async _request (opts) {
+    const url = 'http://api.anidb.net:9001/httpapi'
+    const errors = [
+      '<error>Banned</error>',
+      '<error code="500">banned</error>',
+      '<error>Anime not found</error>',
+      '<error code="302">client version missing or invalid</error>',
+      '<error>Client Values Missing or Invalid</error>',
+      '<error>aid Missing or Invalid</error>'
+    ]
 
-Db.prototype.successfullResponse = function (response) {
-  const errors = [
-    '<error>Banned</error>',
-    '<error code="500">banned</error>',
-    '<error>Anime not found</error>',
-    '<error code="302">client version missing or invalid</error>',
-    '<error>Client Values Missing or Invalid</error>'
-  ]
-  return !errors.includes(response.body)
-}
+    try {
+      const res = await axios({
+        url,
+        params: {
+          client: this.client,
+          clientver: this.version,
+          protover: 1,
+          ...opts
+        }
+      })
 
-Db.prototype.request = function (opts, cb) {
-  const self = this
-  opts.client = this._client
-  opts.clientver = this._version
-  opts.protover = anidbver
-
-  const url = anidburl + '?' + $querystring.stringify(opts)
-
-  rateLimit(
-    1,
-    self.msBetweenRequests,
-    this._doRequest({ url: url, gzip: true }, function (error, response, body) {
-      if (error) return cb(error, null)
-
-      if (!self.successfullResponse(response)) {
-        return cb(
-          new Error(
-            `Did not return a successfull response from AniDB. Returned ${
-              response.body
-            }`
-          ),
-          null
-        )
+      if (res.status < 200 || res.status > 299) {
+        throw new Error(`Endpoint returned a ${res.status} status code`)
+      } else if (errors.includes(res.body)) {
+        throw new Error(`AniDB returned an errors: ${res.body}`)
       }
 
-      $xml.parseString(body, { explicitRoot: false, explicitArray: false }, cb)
-    })
-  )
-}
-
-Db.prototype.getAnime = function (id, cb) {
-  const self = this
-
-  const opts = {
-    request: 'anime',
-    aid: id
+      return res.data
+    } catch (err) {
+      throw err
+    }
   }
 
-  this.request(opts, function (err, response) {
-    if (err) return cb(err)
-    cb(null, self._mapper.mapAnime(response))
-  })
-}
+  /**
+   * Get an anime
+   * @param {Number} id
+   */
+  async getAnime (id) {
+    const opts = {
+      request: 'anime',
+      aid: id
+    }
 
-Db.prototype.getGenres = function (cb) {
-  const self = this
+    try {
+      const res = await this._request(opts)
+      const parseString = util.promisify(xml2js.parseString)
 
-  const opts = {
-    request: 'categorylist'
+      return this.mapper.mapAnime(
+        await parseString(res, { explicitRoot: false, explicitArray: false })
+      )
+    } catch (err) {
+      throw err
+    }
   }
-
-  this.request(opts, function (err, response) {
-    if (err) return cb(err)
-    cb(null, self._mapper.mapGenres(response))
-  })
 }
 
-module.exports = Db
+module.exports = AniDB
