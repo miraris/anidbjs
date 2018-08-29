@@ -1,75 +1,91 @@
-var $request = require('request'),
-	$querystring = require('querystring'),
-	$xml = require('xml2js'),
-	$_ = require('lodash'),
-	Mapper = require('./mapping'),
-	rateLimit = require('function-rate-limit');
+const $request = require('request')
+const $querystring = require('querystring')
+const $xml = require('xml2js')
+const Mapper = require('./mapping')
+const rateLimit = require('function-rate-limit')
 
-var anidburl = 'http://api.anidb.net:9001/httpapi';
-var anidbver = 1;
+const anidburl = 'http://api.anidb.net:9001/httpapi'
+const anidbver = 1
 
-function Db(client, version, msBetweenRequests) {
-	if(client === undefined || version === undefined)
-		throw new Error('Insufficient arguments, new anidb(client, version, [msBetweenRequests])');
-	this._client = client;
-	this._version = version;
-	this._mapper = new Mapper();
-	this.msBetweenRequests = msBetweenRequests || 0;
+function Db (client, version, msBetweenRequests = 0) {
+  if (client === undefined || version === undefined) {
+    throw new Error(
+      'Insufficient arguments, new anidb(client, version, [msBetweenRequests])'
+    )
+  }
+  this._client = client
+  this._version = version
+  this._mapper = new Mapper()
+  this.msBetweenRequests = msBetweenRequests
 }
 
-Db.prototype._doRequest = function(options, callback){
-	return $request(options, callback);
-};
-
-Db.prototype.successfullResponse = function(response){
-	var errors = ['<error>Banned</error>','<error>Client Values Missing or Invalid</error>'];
-	return errors.indexOf(response.body) === -1;
+Db.prototype._doRequest = function (options, callback) {
+  return $request(options, callback)
 }
 
-Db.prototype.request = function(opts, cb) {
-	var self = this;
-	opts.client = this._client;
-	opts.clientver = this._version;
-	opts.protover = anidbver;
-
-	var url = anidburl + '?' + $querystring.stringify(opts);
-	
-	rateLimit(1, self.msBetweenRequests, this._doRequest({url:url, gzip:true}, function (error, response, body){
-		if(error) 
-			return cb(error, null);
-		
-		if(!self.successfullResponse(response)) 
-			return cb(new Error('Did not return a successfull response from anidb. Returned ' + response.body), null)
-
-		$xml.parseString(body, { explicitRoot: false, explicitArray: false }, cb);
-
-	}));
+Db.prototype.successfullResponse = function (response) {
+  const errors = [
+    '<error>Banned</error>',
+    '<error>Client Values Missing or Invalid</error>'
+  ]
+  return errors.indexOf(response.body) === -1
 }
 
-Db.prototype.getAnime = function(id, cb) {
-	var self = this,
-		opts = {
-			request: 'anime',
-			aid: id
-		};
+Db.prototype.request = function (opts, cb) {
+  const self = this
+  opts.client = this._client
+  opts.clientver = this._version
+  opts.protover = anidbver
 
-	this.request(opts, function(err, response){
-		if(err) return cb(err);
-		cb(null, self._mapper.mapAnime(response));
-	});
+  const url = anidburl + '?' + $querystring.stringify(opts)
+
+  rateLimit(
+    1,
+    self.msBetweenRequests,
+    this._doRequest({ url: url, gzip: true }, function (error, response, body) {
+      if (error) return cb(error, null)
+
+      if (!self.successfullResponse(response)) {
+        return cb(
+          new Error(
+            `Did not return a successfull response from anidb. Returned ${
+              response.body
+            }`
+          ),
+          null
+        )
+      }
+
+      $xml.parseString(body, { explicitRoot: false, explicitArray: false }, cb)
+    })
+  )
 }
 
-Db.prototype.getGenres = function(cb){
-	var self = this,
-		opts = {
-			request: 'categorylist',
-		};
+Db.prototype.getAnime = function (id, cb) {
+  const self = this
 
-	this.request(opts, function(err, response){
-		if(err) return cb(err);
-		cb(null, self._mapper.mapGenres(response));
+  const opts = {
+    request: 'anime',
+    aid: id
+  }
 
-	});
+  this.request(opts, function (err, response) {
+    if (err) return cb(err)
+    cb(null, self._mapper.mapAnime(response))
+  })
 }
 
-module.exports = Db;
+Db.prototype.getGenres = function (cb) {
+  const self = this
+
+  const opts = {
+    request: 'categorylist'
+  }
+
+  this.request(opts, function (err, response) {
+    if (err) return cb(err)
+    cb(null, self._mapper.mapGenres(response))
+  })
+}
+
+module.exports = Db

@@ -4,10 +4,10 @@
   "description": "Basic AniDB requester. Supply your own clientid.",
   "main": "index.js",
   "dependencies": {
-    "function-rate-limit": "0.0.1",
-    "lodash": "^2.4.1",
-    "request": "2.39.0",
-    "xml2js": "0.4.4"
+    "function-rate-limit": "1.1.0",
+    "lodash": "^4.17.10",
+    "request": "2.88.0",
+    "xml2js": "0.4.19"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,14 @@
   },
   "homepage": "https://github.com/PaulAvery/node-anidb",
   "devDependencies": {
-    "mocha": "^2.0.1",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
     "objectdiff": "^1.1.0",
-    "should": "^4.3.0"
+    "should": "^13.2.3"
   }
 }
