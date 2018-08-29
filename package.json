@@ -1,7 +1,7 @@
 {
-  "name": "anidb",
-  "version": "0.0.3",
-  "description": "Basic AniDB requester. Supply your own clientid.",
+  "name": "anidbjs",
+  "version": "1.0.1",
+  "description": "Promise-based AniDB client for Node.js.",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.18.0",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PaulAvery/node-anidb.git"
+    "url": "https://github.com/miraris/anidbjs.git"
   },
   "keywords": [
     "anidb"
@@ -18,12 +18,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Florian Albertz",
+  "author": "Miraris <miraris@autistici.org> (https://miraris.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PaulAvery/node-anidb/issues"
+    "url": "https://github.com/miraris/anidbjs/issues"
   },
-  "homepage": "https://github.com/PaulAvery/node-anidb",
+  "homepage": "https://github.com/miraris/anidbjs",
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-config-standard": "^12.0.0",
