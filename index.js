@@ -5,13 +5,13 @@ const util = require('util')
 
 class AniDB {
   constructor (client, version) {
-    try {
-      this.client = client
-      this.version = version
-      this.mapper = new Mapper()
-    } catch (error) {
-      console.error(error)
+    if (client === undefined || version === undefined) {
+      throw new Error('A client string and a version number have to be passed to the AniDB constructor.')
     }
+
+    this.client = client
+    this.version = version
+    this.mapper = new Mapper()
   }
 
   /**
@@ -42,8 +42,8 @@ class AniDB {
 
       if (res.status < 200 || res.status > 299) {
         throw new Error(`Endpoint returned a ${res.status} status code`)
-      } else if (errors.includes(res.body)) {
-        throw new Error(`AniDB returned an errors: ${res.body}`)
+      } else if (errors.includes(res.data)) {
+        throw new Error(`AniDB returned an error => ${res.data}`)
       }
 
       return res.data

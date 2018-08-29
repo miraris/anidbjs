@@ -5,9 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.18.0",
-    "function-rate-limit": "1.1.0",
     "lodash": "^4.17.10",
-    "request": "2.88.0",
     "xml2js": "0.4.19"
   },
   "repository": {
