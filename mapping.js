@@ -74,7 +74,7 @@ Mapper.prototype.mapEpisode = function (episode) {
   return {
     id: this.tryParseInt(episode.$.id),
     update: episode.$.update,
-    epno: this.tryParseInt(episode.epno._),
+    epno: episode.epno._, // this doesn't have to be a number
     type: this.tryParseInt(episode.epno.$.type),
     length: this.tryParseInt(episode.length),
     airdate: episode.airdate,
