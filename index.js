@@ -31,7 +31,7 @@ Db.prototype.successfullResponse = function (response) {
     '<error code="302">client version missing or invalid</error>',
     '<error>Client Values Missing or Invalid</error>'
   ]
-  return errors.includes(response.body)
+  return !errors.includes(response.body)
 }
 
 Db.prototype.request = function (opts, cb) {
