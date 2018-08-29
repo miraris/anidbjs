@@ -31,7 +31,7 @@ Db.prototype.successfullResponse = function (response) {
     '<error code="302">client version missing or invalid</error>',
     '<error>Client Values Missing or Invalid</error>'
   ]
-  return errors.indexOf(response.body) === -1
+  return errors.includes(response.body)
 }
 
 Db.prototype.request = function (opts, cb) {
@@ -51,7 +51,7 @@ Db.prototype.request = function (opts, cb) {
       if (!self.successfullResponse(response)) {
         return cb(
           new Error(
-            `Did not return a successfull response from anidb. Returned ${
+            `Did not return a successfull response from AniDB. Returned ${
               response.body
             }`
           ),
