@@ -26,6 +26,9 @@ Db.prototype._doRequest = function (options, callback) {
 Db.prototype.successfullResponse = function (response) {
   const errors = [
     '<error>Banned</error>',
+    '<error code="500">banned</error>',
+    '<error>Anime not found</error>',
+    '<error code="302">client version missing or invalid</error>',
     '<error>Client Values Missing or Invalid</error>'
   ]
   return errors.indexOf(response.body) === -1
