@@ -16,9 +16,10 @@ class AniDB {
 
   /**
    * The request function
+   * @param {object} params
    * @param {object} opts
    */
-  async _request (opts) {
+  async _request (params, opts) {
     const url = 'http://api.anidb.net:9001/httpapi'
     const errors = [
       '<error>Banned</error>',
@@ -36,8 +37,9 @@ class AniDB {
           client: this.client,
           clientver: this.version,
           protover: 1,
-          ...opts
-        }
+          ...params
+        },
+        ...opts
       })
 
       if (res.status < 200 || res.status > 299) {
@@ -54,16 +56,17 @@ class AniDB {
 
   /**
    * Get an anime
-   * @param {Number} id
+   * @param {Number} id The anime ID
+   * @param {object} opts Additional options that are passed to axios
    */
-  async getAnime (id) {
-    const opts = {
+  async getAnime (id, opts) {
+    const params = {
       request: 'anime',
       aid: id
     }
 
     try {
-      const res = await this._request(opts)
+      const res = await this._request(params, opts)
       const parseString = util.promisify(xml2js.parseString)
 
       return this.mapper.mapAnime(
