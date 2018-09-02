@@ -1,7 +1,7 @@
 # Node AniDB wrapper
 
 [![npm](https://img.shields.io/npm/dm/anidbjs.svg?style=flat-square)](https://www.npmjs.com/package/anidbjs)
-[![Build Status](https://travis-ci.org/miraris/anidbjs.svg?branch=master)](https://travis-ci.org/miraris/anidbjs)
+[![Build Status](https://travis-ci.org/miraris/anidbjs.svg?branch=master)](https://travis-ci.org/miraris/anidbjs) [![Greenkeeper badge](https://badges.greenkeeper.io/miraris/anidbjs.svg)](https://greenkeeper.io/)
 
 This module provides a very minimal interface to fetch data from anidb.net. You may want to read the guidelines in the anidb [wiki](http://wiki.anidb.net/w/HTTP_API_Definition) first.
 
