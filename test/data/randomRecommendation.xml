@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomrecommendation>
+   <recommendation>
+      <anime id="13619" restricted="false">
+         <type>TV Series</type>
+         <episodecount>10</episodecount>
+         <startdate>2018-07-04</startdate>
+         <enddate>2018-09-05</enddate>
+         <title xml:lang="x-jat" type="main">Back Street Girls: Goku Dolls</title>
+         <picture>221819.jpg</picture>
+         <ratings>
+            <permanent count="43">395</permanent>
+            <recommendations>1</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="4597" restricted="false">
+         <type>TV Series</type>
+         <episodecount>12</episodecount>
+         <startdate>2006-10-04</startdate>
+         <enddate>2006-12-20</enddate>
+         <title xml:lang="x-jat" type="main">Black Lagoon: The Second Barrage</title>
+         <picture>131092.jpg</picture>
+         <ratings>
+            <permanent count="9759">827</permanent>
+            <recommendations>64</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="7668" restricted="false">
+         <type>OVA</type>
+         <episodecount>1</episodecount>
+         <startdate>2010-11-22</startdate>
+         <enddate>2010-11-22</enddate>
+         <title xml:lang="x-jat" type="main">G-taste (2010)</title>
+         <picture>161609.jpg</picture>
+         <ratings>
+            <permanent count="188">244</permanent>
+            <recommendations>1</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="238" restricted="false">
+         <type>TV Series</type>
+         <episodecount>20</episodecount>
+         <startdate>2000-10-07</startdate>
+         <enddate>2001-03-24</enddate>
+         <title xml:lang="x-jat" type="main">Gambler Densetsu Tetsuya</title>
+         <picture>9935.jpg</picture>
+         <ratings>
+            <permanent count="337">693</permanent>
+            <recommendations>9</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="11980" restricted="false">
+         <type>Movie</type>
+         <episodecount>1</episodecount>
+         <startdate>2017-06-17</startdate>
+         <enddate>2017-06-17</enddate>
+         <title xml:lang="x-jat" type="main">Gekijouban Mahouka Koukou no Rettousei: Hoshi o Yobu Shoujo</title>
+         <picture>221832.jpg</picture>
+         <ratings>
+            <permanent count="312">529</permanent>
+            <recommendations>1</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="834" restricted="false">
+         <type>TV Series</type>
+         <episodecount>12</episodecount>
+         <startdate>2003-07-13</startdate>
+         <enddate>2003-09-28</enddate>
+         <title xml:lang="x-jat" type="main">Green Green (2003)</title>
+         <picture>534.jpg</picture>
+         <ratings>
+            <permanent count="5323">432</permanent>
+            <recommendations>23</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="3706" restricted="false">
+         <type>OVA</type>
+         <episodecount>6</episodecount>
+         <startdate>2005-12-09</startdate>
+         <enddate>2006-06-23</enddate>
+         <title xml:lang="x-jat" type="main">I``s Pure</title>
+         <picture>10733.jpg</picture>
+         <ratings>
+            <permanent count="1900">595</permanent>
+            <recommendations>14</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="3431" restricted="false">
+         <type>OVA</type>
+         <episodecount>1</episodecount>
+         <startdate>2005-09-23</startdate>
+         <enddate>2005-09-23</enddate>
+         <title xml:lang="x-jat" type="main">Koukaku Kidoutai Stand Alone Complex: The Laughing Man</title>
+         <picture>47675.jpg</picture>
+         <ratings>
+            <permanent count="1450">840</permanent>
+            <recommendations>2</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="306" restricted="false">
+         <type>Movie</type>
+         <episodecount>1</episodecount>
+         <startdate>1992-07-18</startdate>
+         <enddate>1992-07-18</enddate>
+         <title xml:lang="x-jat" type="main">Kurenai no Buta</title>
+         <picture>145634.jpg</picture>
+         <ratings>
+            <permanent count="3820">772</permanent>
+            <recommendations>16</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+   <recommendation>
+      <anime id="11255" restricted="false">
+         <type>TV Series</type>
+         <episodecount>12</episodecount>
+         <startdate>2016-01-11</startdate>
+         <enddate>2016-03-28</enddate>
+         <title xml:lang="x-jat" type="main">Schwarzesmarken</title>
+         <picture>180172.jpg</picture>
+         <ratings>
+            <permanent count="697">368</permanent>
+            <recommendations>5</recommendations>
+         </ratings>
+      </anime>
+   </recommendation>
+</randomrecommendation>
