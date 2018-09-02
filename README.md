@@ -1,7 +1,14 @@
 # Node AniDB wrapper
 
-[![npm](https://img.shields.io/npm/dm/anidbjs.svg?style=flat-square)](https://www.npmjs.com/package/anidbjs)
-[![Build Status](https://travis-ci.org/miraris/anidbjs.svg?branch=master)](https://travis-ci.org/miraris/anidbjs)
+[![Build Status][travis-svg]][travis-url]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
+
+[![npm badge][npm-badge-png]][package-url]
+
+> A minimalistic AniDB HTTP API wrapper for Node.js.
 
 This module provides a very minimal interface to fetch data from anidb.net. You may want to read the guidelines in the anidb [wiki](http://wiki.anidb.net/w/HTTP_API_Definition) first.
 
@@ -25,3 +32,16 @@ client
   .then(res => console.log(res))
   .catch(err => console.error(err));
 ```
+
+[package-url]: https://npmjs.org/package/anidbjs
+[travis-svg]: https://travis-ci.org/miraris/anidbjs.svg
+[travis-url]: https://travis-ci.org/miraris/anidbjs
+[deps-svg]: https://david-dm.org/miraris/anidbjs.svg
+[deps-url]: https://david-dm.org/miraris/anidbjs
+[dev-deps-svg]: https://david-dm.org/miraris/anidbjs/dev-status.svg
+[dev-deps-url]: https://david-dm.org/miraris/anidbjs#info=devDependencies
+[npm-badge-png]: https://nodei.co/npm/anidbjs.png
+[license-image]: http://img.shields.io/npm/l/anidbjs.svg
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/anidbjs.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=anidbjs
