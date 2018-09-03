@@ -1,6 +1,6 @@
 {
   "name": "anidbjs",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Promise-based AniDB client for Node.js.",
   "main": "lib/anidb.js",
   "dependencies": {
