@@ -43,6 +43,16 @@ describe('AniDb: Anime', _ => {
     })
   })
 
+  it('Anime 2322 should give expected result', done => {
+    returnFile = './test/data/anime_2322.xml'
+
+    client.anime(2322).then(anime => {
+      const expected = require('./expected/anime_2322.js')
+      toEqualOwnProperties(anime, expected)
+      done()
+    })
+  })
+
   it('Anime 11021 should give expected result', done => {
     returnFile = './test/data/anime_11021.xml'
 

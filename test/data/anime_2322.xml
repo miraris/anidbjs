@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="2322" restricted="false">
+<type>TV Series</type>
+<episodecount>68</episodecount>
+<startdate>2001-10-07</startdate>
+<enddate>2003-01-26</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Gekitou! Crush Gear Turbo</title>
+<title xml:lang="en" type="synonym">Fight! Crash Gear TURBO</title>
+<title xml:lang="en" type="synonym">Fight! Crush Gear TURBO</title>
+<title xml:lang="ja" type="official">激闘! クラッシュギアTURBO</title>
+<title xml:lang="de" type="official">Crush Gear Turbo</title>
+<title xml:lang="ar" type="official">كرش جير</title>
+</titles>
+<relatedanime>
+<anime id="714" type="Sequel">Crush Gear Nitro</anime>
+<anime id="2323" type="Sequel">Gekitou! Crush Gear Turbo: Kaizabaan no Chousen</anime>
+</relatedanime>
+<recommendations total="1"/>
+<url>http://www.sunrise-anime.jp/sunrise-inc/works/detail.php?cid=71</url>
+<creators>
+<name id="726" type="Work">Sunrise</name>
+<name id="3413" type="Character Design">Tobe Atsuo</name>
+<name id="5155" type="Chief Direction">Iuchi Shuuji</name>
+<name id="1352" type="Original Work">Yatate Hajime</name>
+<name id="1071" type="Work">Tokyu Agency</name>
+<name id="1019" type="Work">Nagoya TV Housou</name>
+<name id="657" type="Series Composition">Gobu Fuyunori</name>
+<name id="6665" type="Series Composition">Kitajima Hiroaki</name>
+</creators>
+<description>Marino Kouya is a 5th grade boy who loves Gear Fighting - a sport involving ring battles between small mechanical vehicles. His brother Yuhya had been the Asian Cup Gear Fighter Champion before he died in an accident four years ago. However, Kouya`s skills are nowhere near his brother`s, and one day most of his team members shift to Manganji Club - a team created by his former teammate Manganji Takeshi. As a result, his big brother`s Crush Gear Club faces the threat of closure. Refusing to give up, Kouya offers a challenge to Takeshi and tries to find a way to reinstate the club back to its former glory.
+Source: Wikipedia</description>
+<ratings>
+<permanent count="67">3.37</permanent>
+<temporary count="70">5.97</temporary>
+</ratings>
+<picture>58376.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>2169</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>3012</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://sunrise-inc.co.jp/work/detail.php?cid=71</url>
+</externalentity>
+</resource>
+<resource type="6">
+<externalentity>
+<identifier>Crush_Gear_Turbo</identifier>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>激闘!クラッシュギアTURBO</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>236340</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>4943</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="922" parentid="2606" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-02-04">
+<name>shounen</name>
+<description>In the context of manga and associated media, shounen, literally meaning "youth" and often also specifically "boy", refers to a male audience roughly between the ages of 10 and 18.
+Source: Wikipedia</description>
+</tag>
+<tag id="2606" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-18">
+<name>target audience</name>
+<description>Anime, like everything else in the modern world, is targeted towards specific audiences, both implicitly by the creators and overtly by the marketing. While categories are associated with specific sex and age groups, this is not a bar on the anime being enjoyed by people who don`t fit into that band; not only do crossover titles exist, but the categories also have a considerable following outside their main demographic, and a person might as well enjoy anime from all categories. Still, does not invalidate the usefulness of marking a title as one of the categories; the same themes will likely be treated differently in anime geared for different audiences. Only one should not jump the gun and assume that a title will be more or less serious or present content in this or that way due to its target audience, or conversely assume the target audience on the content and its presentation alone. As such, the audience categories help form a broad impression of how a title might work with the announced themes, but offer little to no in-depth information about specific content or its treatment.
+The audience categories originate from manga magazines, which group titles of a same intended audience into a magazine that is advertised as belonging to that category, and so manga-based anime will have the category from their parent work. As for anime based on other works, the audience is often debatable, but comparing information such as time slot to the manga-based anime generally helps figure out the most likely possibility.</description>
+</tag>
+<tag id="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>setting</name>
+<description>The setting describes in what time and place an anime takes place. To a certain extent it describes what you can expect from the world in the anime.</description>
+</tag>
+<tag id="2612" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>time</name>
+<description>This placeholder lists different epochs in human history and more vague but important timelines such as the future, the present and the past.</description>
+</tag>
+<tag id="2624" parentid="2612" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2017-02-20">
+<name>present</name>
+<description>Somewhere between past and future.</description>
+</tag>
+</tags>
+<characters>
+<character id="28986" type="secondary cast in" update="2011-02-20">
+<name>Wang Hu</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="1934" picture="186186.jpg">Aida Sayaka</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="60446" update="2006-08-15">
+<epno type="1">1</epno>
+<length>25</length>
+<airdate>2001-10-07</airdate>
+<rating votes="1">8.60</rating>
+<title xml:lang="ja">燃えろ!ギアファイト魂</title>
+<title xml:lang="en">Episode 1</title>
+<title xml:lang="de">Rettung in letzter Minute</title>
+<title xml:lang="x-jat">Moero! Gear Fight Tamashii</title>
+</episode>
+<episode id="60447" update="2006-08-15">
+<epno type="1">2</epno>
+<length>25</length>
+<airdate>2001-10-14</airdate>
+<title xml:lang="ja">あんぱんファイターを探せ!</title>
+<title xml:lang="en">Episode 2</title>
+<title xml:lang="de">Das Duell</title>
+<title xml:lang="x-jat">Anpan Fighter o Sagase!</title>
+</episode>
+<episode id="60448" update="2006-08-15">
+<epno type="1">3</epno>
+<length>25</length>
+<airdate>2001-10-21</airdate>
+<title xml:lang="ja">天才ギアマスタージン</title>
+<title xml:lang="en">Episode 3</title>
+<title xml:lang="de">Master Jinn</title>
+<title xml:lang="x-jat">Tensai Gear Master Jin</title>
+</episode>
+<episode id="60449" update="2006-08-15">
+<epno type="1">4</epno>
+<length>25</length>
+<airdate>2001-10-28</airdate>
+<title xml:lang="ja">4人目のファイター</title>
+<title xml:lang="en">Episode 4</title>
+<title xml:lang="de">Die unschlagbaren Zwei</title>
+<title xml:lang="x-jat">4 Hitome no Fighter</title>
+</episode>
+<episode id="60450" update="2006-08-15">
+<epno type="1">5</epno>
+<length>25</length>
+<airdate>2001-11-04</airdate>
+<title xml:lang="ja">トビタクラブの危機</title>
+<title xml:lang="en">Episode 5</title>
+<title xml:lang="de">Club der Lügner</title>
+<title xml:lang="x-jat">Tobita Club no Kiki</title>
+</episode>
+<episode id="60451" update="2006-08-15">
+<epno type="1">6</epno>
+<length>25</length>
+<airdate>2001-11-11</airdate>
+<title xml:lang="ja">ギアを賭けたファイト</title>
+<title xml:lang="en">Episode 6</title>
+<title xml:lang="de">Garuda Eagle in Gefahr</title>
+<title xml:lang="x-jat">Gear o Kaketa Fight</title>
+</episode>
+<episode id="60452" update="2006-08-15">
+<epno type="1">7</epno>
+<length>25</length>
+<airdate>2001-11-18</airdate>
+<title xml:lang="ja">兄からの贈り物</title>
+<title xml:lang="en">Episode 7</title>
+<title xml:lang="de">Das Vermächtnis</title>
+<title xml:lang="x-jat">Ani kara no Okurimono</title>
+</episode>
+<episode id="60453" update="2006-08-15">
+<epno type="1">8</epno>
+<length>25</length>
+<airdate>2001-11-25</airdate>
+<title xml:lang="ja">タコ焼きバトルロイヤル!</title>
+<title xml:lang="en">Episode 8</title>
+<title xml:lang="de">Das Betrügerteam</title>
+<title xml:lang="x-jat">Takoyaki Battle Royal!</title>
+</episode>
+<episode id="60454" update="2006-08-15">
+<epno type="1">9</epno>
+<length>25</length>
+<airdate>2001-12-02</airdate>
+<title xml:lang="ja">ジロウの古傷</title>
+<title xml:lang="en">Episode 9</title>
+<title xml:lang="de">Alte Wunden</title>
+<title xml:lang="x-jat">Jirou no Furukizu</title>
+</episode>
+<episode id="60455" update="2006-08-15">
+<epno type="1">10</epno>
+<length>25</length>
+<airdate>2001-12-09</airdate>
+<title xml:lang="ja">天才は天才を呼ぶ!</title>
+<title xml:lang="en">Episode 10</title>
+<title xml:lang="de">Meister gegen Meister</title>
+<title xml:lang="x-jat">Tensai wa Tensai o Yobu!</title>
+</episode>
+<episode id="60456" update="2006-08-15">
+<epno type="1">11</epno>
+<length>25</length>
+<airdate>2001-12-16</airdate>
+<title xml:lang="ja">勝利への執念</title>
+<title xml:lang="en">Episode 11</title>
+<title xml:lang="de">Der Billard-Champ</title>
+<title xml:lang="x-jat">Shouri e no Shuunen</title>
+</episode>
+<episode id="60457" update="2006-08-15">
+<epno type="1">12</epno>
+<length>25</length>
+<airdate>2001-12-23</airdate>
+<title xml:lang="ja">史上最強のギア鎧輝</title>
+<title xml:lang="en">Episode 12</title>
+<title xml:lang="de">Der Adler stürzt ab</title>
+<title xml:lang="x-jat">Shijou Saikyou no Gear Gaiki</title>
+</episode>
+<episode id="60458" update="2006-08-15">
+<epno type="1">13</epno>
+<length>25</length>
+<airdate>2001-12-30</airdate>
+<title xml:lang="ja">友情とライバル</title>
+<title xml:lang="en">Episode 13</title>
+<title xml:lang="de">Die Ehrenbezeugung</title>
+<title xml:lang="x-jat">Yuujou to Rival</title>
+</episode>
+<episode id="60459" update="2006-08-15">
+<epno type="1">14</epno>
+<length>25</length>
+<airdate>2002-01-06</airdate>
+<title xml:lang="ja">マンガンジの野望</title>
+<title xml:lang="en">Episode 14</title>
+<title xml:lang="de">Der Hokkaido-Cup</title>
+<title xml:lang="x-jat">Manganji no Yabou</title>
+</episode>
+<episode id="60460" update="2006-08-15">
+<epno type="1">15</epno>
+<length>25</length>
+<airdate>2002-01-13</airdate>
+<title xml:lang="ja">北の国の剣豪武蔵!</title>
+<title xml:lang="en">Episode 15</title>
+<title xml:lang="de">In der Höhle des Löwen</title>
+<title xml:lang="x-jat">Kita no Kuni no Kengou Takekura!</title>
+</episode>
+<episode id="60461" update="2006-08-15">
+<epno type="1">16</epno>
+<length>25</length>
+<airdate>2002-01-20</airdate>
+<title xml:lang="ja">それぞれの闘い!</title>
+<title xml:lang="en">Episode 16</title>
+<title xml:lang="de">Rache!</title>
+<title xml:lang="x-jat">Sorezore no Tatakai!</title>
+</episode>
+<episode id="60462" update="2006-08-15">
+<epno type="1">17</epno>
+<length>25</length>
+<airdate>2002-01-27</airdate>
+<title xml:lang="ja">恐怖のイリュージョンカップ!</title>
+<title xml:lang="en">Episode 17</title>
+<title xml:lang="de">Sieg oder Kuss</title>
+<title xml:lang="x-jat">Kyoufu no Illusion Cup!</title>
+</episode>
+<episode id="60463" update="2006-08-15">
+<epno type="1">18</epno>
+<length>25</length>
+<airdate>2002-02-03</airdate>
+<title xml:lang="ja">ガルダイーグルに吹く風</title>
+<title xml:lang="en">Episode 18</title>
+<title xml:lang="de">Kampf um Kouya</title>
+<title xml:lang="x-jat">Garuda Eagle ni Fuku Kaze</title>
+</episode>
+<episode id="60464" update="2006-08-15">
+<epno type="1">19</epno>
+<length>25</length>
+<airdate>2002-02-10</airdate>
+<title xml:lang="ja">タコヤキングの逆襲!</title>
+<title xml:lang="en">Episode 19</title>
+<title xml:lang="de">Die Müll-Attacke</title>
+<title xml:lang="x-jat">Takoyaking no Gyakushuu!</title>
+</episode>
+<episode id="60465" update="2006-08-15">
+<epno type="1">20</epno>
+<length>25</length>
+<airdate>2002-02-17</airdate>
+<title xml:lang="ja">翔べ!ガルダイーグル!!</title>
+<title xml:lang="en">Episode 20</title>
+<title xml:lang="de">Das Finale</title>
+<title xml:lang="x-jat">Tobe! Garuda Eagle!!</title>
+</episode>
+<episode id="60466" update="2006-08-15">
+<epno type="1">21</epno>
+<length>25</length>
+<airdate>2002-02-24</airdate>
+<title xml:lang="ja">トビタクラブ大進撃!</title>
+<title xml:lang="en">Episode 21</title>
+<title xml:lang="de">Die Entscheidung</title>
+<title xml:lang="x-jat">Tobita Club Daishingeki!</title>
+</episode>
+<episode id="60467" update="2006-08-15">
+<epno type="1">22</epno>
+<length>25</length>
+<airdate>2002-03-03</airdate>
+<title xml:lang="ja">哀しみの勝利</title>
+<title xml:lang="en">Episode 22</title>
+<title xml:lang="de">Totalschaden</title>
+<title xml:lang="x-jat">Kanashimi no Shouri</title>
+</episode>
+<episode id="60468" update="2006-08-15">
+<epno type="1">23</epno>
+<length>25</length>
+<airdate>2002-03-10</airdate>
+<title xml:lang="ja">その一点をねらえ!</title>
+<title xml:lang="en">Episode 23</title>
+<title xml:lang="de">Das Ziel</title>
+<title xml:lang="x-jat">Sono Itten o Nerae!</title>
+</episode>
+<episode id="60469" update="2006-08-15">
+<epno type="1">24</epno>
+<length>25</length>
+<airdate>2002-03-17</airdate>
+<title xml:lang="ja">悔いなき一投!</title>
+<title xml:lang="en">Episode 24</title>
+<title xml:lang="de">Der große Abschied</title>
+<title xml:lang="x-jat">Kuinaki Ittou!</title>
+</episode>
+<episode id="60470" update="2006-08-15">
+<epno type="1">25</epno>
+<length>25</length>
+<airdate>2002-03-24</airdate>
+<title xml:lang="ja">友よ, 激闘の果てに!</title>
+<title xml:lang="en">Episode 25</title>
+<title xml:lang="de">Böses Erwachen</title>
+<title xml:lang="x-jat">Tomo yo, Gekitou no Hate ni!</title>
+</episode>
+<episode id="60471" update="2006-08-15">
+<epno type="1">26</epno>
+<length>25</length>
+<airdate>2002-03-31</airdate>
+<title xml:lang="ja">誕生!ガルダフェニックス!</title>
+<title xml:lang="en">Episode 26</title>
+<title xml:lang="de">Garuda Phönix</title>
+<title xml:lang="x-jat">Tanjou! Garuda Phoenix!</title>
+</episode>
+<episode id="60472" update="2006-08-15">
+<epno type="1">27</epno>
+<length>25</length>
+<airdate>2002-04-07</airdate>
+<title xml:lang="ja">コウヤ対ハイパーじいちゃん!</title>
+<title xml:lang="en">Episode 27</title>
+<title xml:lang="de">Die glückliche Begegnung</title>
+<title xml:lang="x-jat">Kouya Tai Hyper Jii-chan!</title>
+</episode>
+<episode id="60473" update="2006-08-15">
+<epno type="1">28</epno>
+<length>25</length>
+<airdate>2002-04-14</airdate>
+<title xml:lang="ja">新たなるライバル王虎[ワンフー]!</title>
+<title xml:lang="en">Episode 28</title>
+<title xml:lang="de">Die Höhle des Löwen</title>
+<title xml:lang="x-jat">Aratanaru Rival Wang Hu!</title>
+</episode>
+<episode id="60474" update="2006-08-15">
+<epno type="1">29</epno>
+<length>25</length>
+<airdate>2002-04-21</airdate>
+<title xml:lang="ja">開幕!アジアカップ</title>
+<title xml:lang="en">Episode 29</title>
+<title xml:lang="de">Offene Rechnungen</title>
+<title xml:lang="x-jat">Kaimaku! Asia Cup</title>
+</episode>
+<episode id="60475" update="2006-08-15">
+<epno type="1">30</epno>
+<length>25</length>
+<airdate>2002-04-28</airdate>
+<title xml:lang="ja">唸れ!ビートルダッシュ!!</title>
+<title xml:lang="en">Episode 30</title>
+<title xml:lang="de">Das Paket</title>
+<title xml:lang="x-jat">Unare! Beetle Dash!!</title>
+</episode>
+<episode id="60476" update="2006-08-15">
+<epno type="1">31</epno>
+<length>25</length>
+<airdate>2002-05-05</airdate>
+<title xml:lang="ja">ブラックガルダの謎</title>
+<title xml:lang="en">Episode 31</title>
+<title xml:lang="de">Der schwarze Abt</title>
+<title xml:lang="x-jat">Black Garuda no Nazo</title>
+</episode>
+<episode id="60477" update="2006-08-15">
+<epno type="1">32</epno>
+<length>25</length>
+<airdate>2002-05-12</airdate>
+<title xml:lang="ja">時を駈ける絆</title>
+<title xml:lang="en">Episode 32</title>
+<title xml:lang="de">Claudes Geschichte</title>
+<title xml:lang="x-jat">Toki o Kakeru Kizuna</title>
+</episode>
+<episode id="60478" update="2006-08-15">
+<epno type="1">33</epno>
+<length>25</length>
+<airdate>2002-05-19</airdate>
+<title xml:lang="ja">激突!鳳凰[ガルダフェニックス]VS猛虎[タイガレイド]</title>
+<title xml:lang="en">Episode 33</title>
+<title xml:lang="de">Der falsche Freund</title>
+<title xml:lang="x-jat">Gekitotsu! Garuda Phoenix vs Tigeraid</title>
+</episode>
+<episode id="60479" update="2006-08-15">
+<epno type="1">34</epno>
+<length>25</length>
+<airdate>2002-05-26</airdate>
+<title xml:lang="ja">究極のファイター!万願寺三凱将!</title>
+<title xml:lang="en">Episode 34</title>
+<title xml:lang="de">Der Talisman</title>
+<title xml:lang="x-jat">Kyuukyoku no Fighter! Manganji Sangaishou!</title>
+</episode>
+<episode id="60480" update="2006-08-15">
+<epno type="1">35</epno>
+<length>25</length>
+<airdate>2002-06-02</airdate>
+<title xml:lang="ja">宿命の対決!アジアカップ最終決戦!</title>
+<title xml:lang="en">Episode 35</title>
+<title xml:lang="de">Alles oder Nichts</title>
+<title xml:lang="x-jat">Shukumei no Taiketsu! Asia Cup Saishuu Kessen!</title>
+</episode>
+<episode id="60481" update="2006-08-15">
+<epno type="1">36</epno>
+<length>25</length>
+<airdate>2002-06-09</airdate>
+<title xml:lang="ja">アジアカップTODAYスペシャル!</title>
+<title xml:lang="en">Episode 36</title>
+<title xml:lang="de">Auf Sendung</title>
+<title xml:lang="x-jat">Asia Cup Today Special!</title>
+</episode>
+<episode id="60482" update="2006-08-15">
+<epno type="1">37</epno>
+<length>25</length>
+<airdate>2002-06-23</airdate>
+<title xml:lang="ja">忍者ファイター見参!</title>
+<title xml:lang="en">Episode 37</title>
+<title xml:lang="de">Die Siegesfeier</title>
+<title xml:lang="x-jat">Ninja Fighter Kenzan!</title>
+</episode>
+<episode id="60483" update="2006-08-15">
+<epno type="1">38</epno>
+<length>25</length>
+<airdate>2002-06-30</airdate>
+<title xml:lang="ja">ガルダイーグルを作った男</title>
+<title xml:lang="en">Episode 38</title>
+<title xml:lang="de">Zwiespältige Gefühle</title>
+<title xml:lang="x-jat">Garuda Eagle o Tsukutta Otoko</title>
+</episode>
+<episode id="60484" update="2006-08-15">
+<epno type="1">39</epno>
+<length>25</length>
+<airdate>2002-07-07</airdate>
+<title xml:lang="ja">バルト海の荒鷲ガレン!</title>
+<title xml:lang="en">Episode 39</title>
+<title xml:lang="de">Die Lehrstunde</title>
+<title xml:lang="x-jat">Balt-kai no Arawashi Gallen!</title>
+</episode>
+<episode id="60485" update="2006-08-15">
+<epno type="1">40</epno>
+<length>25</length>
+<airdate>2002-07-14</airdate>
+<title xml:lang="ja">決闘!クラッシュ巌流島</title>
+<title xml:lang="en">Episode 40</title>
+<title xml:lang="de">Der Einsiedler</title>
+<title xml:lang="x-jat">Kettou! Crush Ganryuu-jima</title>
+</episode>
+<episode id="60486" update="2006-08-15">
+<epno type="1">41</epno>
+<length>25</length>
+<airdate>2002-07-21</airdate>
+<title xml:lang="ja">ワールドカップ 新たなる戦い!</title>
+<title xml:lang="en">Episode 41</title>
+<title xml:lang="de">Die Weltmeisterschaft</title>
+<title xml:lang="x-jat">World Cup Aratanaru Tatakai!</title>
+</episode>
+<episode id="60487" update="2006-08-15">
+<epno type="1">42</epno>
+<length>25</length>
+<airdate>2002-07-28</airdate>
+<title xml:lang="ja">華麗なる白い騎士団[ヴァイスリッターズ]</title>
+<title xml:lang="en">Episode 42</title>
+<title xml:lang="de">Die edlen weißen Ritter</title>
+<title xml:lang="x-jat">Karei Naru Weiss Ritters</title>
+</episode>
+<episode id="60488" update="2006-08-15">
+<epno type="1">43</epno>
+<length>25</length>
+<airdate>2002-08-04</airdate>
+<title xml:lang="ja">絆に結ばれたファイト!</title>
+<title xml:lang="en">Episode 43</title>
+<title xml:lang="de">Doppelter Einsatz</title>
+<title xml:lang="x-jat">Kizuna ni Musubareta Fight!</title>
+</episode>
+<episode id="60489" update="2006-08-15">
+<epno type="1">44</epno>
+<length>25</length>
+<airdate>2002-08-11</airdate>
+<title xml:lang="ja">発動!恐怖の虎超氷撃[フーチャオピンジー]!!</title>
+<title xml:lang="en">Episode 44</title>
+<title xml:lang="de">Das Geheimnis um U-Ya</title>
+<title xml:lang="x-jat">Hatsudou! Kyoufu no Huchaobingji!!</title>
+</episode>
+<episode id="60490" update="2006-08-15">
+<epno type="1">45</epno>
+<length>25</length>
+<airdate>2002-08-18</airdate>
+<title xml:lang="ja">受け継がれるもの</title>
+<title xml:lang="en">Episode 45</title>
+<title xml:lang="de">Ein teuflischer Auftrag</title>
+<title xml:lang="x-jat">Uketsugareru Mono</title>
+</episode>
+<episode id="60491" update="2006-08-15">
+<epno type="1">46</epno>
+<length>25</length>
+<airdate>2002-08-25</airdate>
+<title xml:lang="ja">U-YAの秘密</title>
+<title xml:lang="en">Episode 46</title>
+<title xml:lang="de">Carlos</title>
+<title xml:lang="x-jat">U-YA no Himitsu</title>
+</episode>
+<episode id="60492" update="2006-08-15">
+<epno type="1">47</epno>
+<length>25</length>
+<airdate>2002-09-01</airdate>
+<title xml:lang="ja">タイガフレアの涙</title>
+<title xml:lang="en">Episode 47</title>
+<title xml:lang="de">Jin gegen Lan</title>
+<title xml:lang="x-jat">Tiger Flare no Namida</title>
+</episode>
+<episode id="60493" update="2006-08-15">
+<epno type="1">48</epno>
+<length>25</length>
+<airdate>2002-09-08</airdate>
+<title xml:lang="ja">荒鷲グリフィード, 再び!</title>
+<title xml:lang="en">Episode 48</title>
+<title xml:lang="de">Die bittere Wahrheit</title>
+<title xml:lang="x-jat">Arawashi Grifeed, Futatabi!</title>
+</episode>
+<episode id="60494" update="2006-08-15">
+<epno type="1">49</epno>
+<length>25</length>
+<airdate>2002-09-15</airdate>
+<title xml:lang="ja">憎しみの黒き不死鳥[フェニックス]</title>
+<title xml:lang="en">Episode 49</title>
+<title xml:lang="de">Hass im Herzen</title>
+<title xml:lang="x-jat">Nikushimi no Kuroki Phoenix</title>
+</episode>
+<episode id="60495" update="2006-08-15">
+<epno type="1">50</epno>
+<length>25</length>
+<airdate>2002-09-22</airdate>
+<title xml:lang="ja">破壊貴公子ケイン</title>
+<title xml:lang="en">Episode 50</title>
+<title xml:lang="de">Der Prinz der Zerstörung</title>
+<title xml:lang="x-jat">Hakai Kikoushi Cain</title>
+</episode>
+<episode id="60496" update="2006-08-15">
+<epno type="1">51</epno>
+<length>25</length>
+<airdate>2002-09-29</airdate>
+<title xml:lang="ja">疾風のアークキャバリアー!</title>
+<title xml:lang="en">Episode 51</title>
+<title xml:lang="de">Kanes Geschichte</title>
+<title xml:lang="x-jat">Shippuu no Ark Cavalier!</title>
+</episode>
+<episode id="60497" update="2006-08-15">
+<epno type="1">52</epno>
+<length>25</length>
+<airdate>2002-10-06</airdate>
+<title xml:lang="ja">心を繋ぐファイト</title>
+<title xml:lang="en">Episode 52</title>
+<title xml:lang="de">Die Bekehrung</title>
+<title xml:lang="x-jat">Kokoro o Tsunagu Fight</title>
+</episode>
+<episode id="60498" update="2006-08-15">
+<epno type="1">53</epno>
+<length>25</length>
+<airdate>2002-10-13</airdate>
+<title xml:lang="ja">秘められた力</title>
+<title xml:lang="en">Episode 53</title>
+<title xml:lang="de">Die verborgene Kraft</title>
+<title xml:lang="x-jat">Himerareta Chikara</title>
+</episode>
+<episode id="60499" update="2006-08-15">
+<epno type="1">54</epno>
+<length>25</length>
+<airdate>2002-10-20</airdate>
+<title xml:lang="ja">忍者ファイターを撃ち破れ!</title>
+<title xml:lang="en">Episode 54</title>
+<title xml:lang="de">Fata Morgana</title>
+<title xml:lang="x-jat">Ninja Fighter o Uchiyabure!</title>
+</episode>
+<episode id="60500" update="2006-08-15">
+<epno type="1">55</epno>
+<length>25</length>
+<airdate>2002-10-27</airdate>
+<title xml:lang="ja">誇りあるギアファイト</title>
+<title xml:lang="en">Episode 55</title>
+<title xml:lang="de">Die Erpressung</title>
+<title xml:lang="x-jat">Hokori Aru Gear Fight</title>
+</episode>
+<episode id="60501" update="2006-08-15">
+<epno type="1">56</epno>
+<length>25</length>
+<airdate>2002-11-03</airdate>
+<title xml:lang="ja">対決!クロウド対キョウスケ!</title>
+<title xml:lang="en">Episode 56</title>
+<title xml:lang="de">Showdown</title>
+<title xml:lang="x-jat">Taiketsu! Kuroudo tai Kyousuke!</title>
+</episode>
+<episode id="60502" update="2006-08-15">
+<epno type="1">57</epno>
+<length>25</length>
+<airdate>2002-11-10</airdate>
+<title xml:lang="ja">友情のリング</title>
+<title xml:lang="en">Episode 57</title>
+<title xml:lang="de">Claudes Geständnis</title>
+<title xml:lang="x-jat">Yuujou no Ring</title>
+</episode>
+<episode id="60503" update="2006-08-15">
+<epno type="1">58</epno>
+<length>25</length>
+<airdate>2002-11-17</airdate>
+<title xml:lang="ja">勝利を掴む者</title>
+<title xml:lang="en">Episode 58</title>
+<title xml:lang="de">Ein wichtiges Training</title>
+<title xml:lang="x-jat">Shouri o Tsukamu Mono</title>
+</episode>
+<episode id="60504" update="2006-08-15">
+<epno type="1">59</epno>
+<length>25</length>
+<airdate>2002-11-24</airdate>
+<title xml:lang="ja">古城の対決!ジロウ対U-YA!</title>
+<title xml:lang="en">Episode 59</title>
+<title xml:lang="de">Unter wilden Tieren</title>
+<title xml:lang="x-jat">Kojou no Taiketsu! Jirou tai U-YA!</title>
+</episode>
+<episode id="60505" update="2006-08-15">
+<epno type="1">60</epno>
+<length>25</length>
+<airdate>2002-12-01</airdate>
+<title xml:lang="ja">約束のファイト</title>
+<title xml:lang="en">Episode 60</title>
+<title xml:lang="de">Die Spezialattacke</title>
+<title xml:lang="x-jat">Yakusoku no Fight</title>
+</episode>
+<episode id="60506" update="2006-08-15">
+<epno type="1">61</epno>
+<length>25</length>
+<airdate>2002-12-08</airdate>
+<title xml:lang="ja">友に届け!ギアの心</title>
+<title xml:lang="en">Episode 61</title>
+<title xml:lang="de">Risiko</title>
+<title xml:lang="x-jat">Tomo ni Todoke! Gear no Kokoro</title>
+</episode>
+<episode id="60507" update="2006-08-15">
+<epno type="1">62</epno>
+<length>25</length>
+<airdate>2002-12-15</airdate>
+<title xml:lang="ja">黒い森のギアマスター</title>
+<title xml:lang="en">Episode 62</title>
+<title xml:lang="de">Der lange Marsch</title>
+<title xml:lang="x-jat">Kuroi Mori no Gear Master</title>
+</episode>
+<episode id="60508" update="2006-08-15">
+<epno type="1">63</epno>
+<length>25</length>
+<airdate>2002-12-22</airdate>
+<title xml:lang="ja">ガルダの名の下に</title>
+<title xml:lang="en">Episode 63</title>
+<title xml:lang="de">Botschaft aus dem Jenseits</title>
+<title xml:lang="x-jat">Garuda no Na no Shita ni</title>
+</episode>
+<episode id="60509" update="2006-08-15">
+<epno type="1">64</epno>
+<length>25</length>
+<airdate>2002-12-29</airdate>
+<title xml:lang="ja">魂のギアファイト</title>
+<title xml:lang="en">Episode 64</title>
+<title xml:lang="de">Ein ganz besonderes Match</title>
+<title xml:lang="x-jat">Tamashii no Gear Fight</title>
+</episode>
+<episode id="60510" update="2006-08-15">
+<epno type="1">65</epno>
+<length>25</length>
+<airdate>2003-01-05</airdate>
+<title xml:lang="ja">永遠の好敵手[ライバル]</title>
+<title xml:lang="en">Episode 65</title>
+<title xml:lang="de">Der ewige Rivale</title>
+<title xml:lang="x-jat">Eien no Rival</title>
+</episode>
+<episode id="60511" update="2006-08-15">
+<epno type="1">66</epno>
+<length>25</length>
+<airdate>2003-01-12</airdate>
+<title xml:lang="ja">運命のラストファイト</title>
+<title xml:lang="en">Episode 66</title>
+<title xml:lang="de">Der große Moment</title>
+<title xml:lang="x-jat">Unmei no Last Fight</title>
+</episode>
+<episode id="60512" update="2006-08-15">
+<epno type="1">67</epno>
+<length>25</length>
+<airdate>2003-01-19</airdate>
+<title xml:lang="ja">リングを翔ける疾風[かぜ]</title>
+<title xml:lang="en">Episode 67</title>
+<title xml:lang="de">Takeshis Mission</title>
+<title xml:lang="x-jat">Ring o Kakeru Kaze</title>
+</episode>
+<episode id="60513" update="2006-08-15">
+<epno type="1">68</epno>
+<length>25</length>
+<airdate>2003-01-26</airdate>
+<title xml:lang="ja">輝け!熱きギア魂!</title>
+<title xml:lang="en">Episode 68</title>
+<title xml:lang="de">Endlich Weltmeister!</title>
+<title xml:lang="x-jat">Kagayake! Atsuki Gear Tamashii!</title>
+</episode>
+<episode id="89064" update="2010-11-01">
+<epno type="3">C3</epno>
+<length>2</length>
+<title xml:lang="en">German Opening</title>
+</episode>
+<episode id="124873" update="2010-11-01">
+<epno type="3">C2</epno>
+<length>2</length>
+<airdate>2001-10-07</airdate>
+<title xml:lang="en">Ending</title>
+</episode>
+<episode id="124874" update="2010-11-01">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2001-10-07</airdate>
+<title xml:lang="en">Opening</title>
+</episode>
+</episodes>
+</anime>
