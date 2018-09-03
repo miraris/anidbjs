@@ -773,7 +773,7 @@ module.exports = {
       description:
         'Ablïarsec néïc Dubreuscr Bœrh Parhynr Lamhirh (a.k.a., Viscountess Paryunu Abriel Nei Dobrusk Lafiel) is the main female protagonist in the anime Crest of the Stars, Banner of the Stars, and Banner of the Stars II, as well as all the novels written by Morioka Hiroyuki on which the shows were based. She is a strong-willed Abh princess (granddaughter of the Abh empress) who has a steely exterior, but ends up befriending Ghintec Linn (Jinto Lynn in the Martinh tongue). Like all Abh, she has bluish hued hair, and has a natural lifespan of over 200 years. Lamhirh also has lapis lazuli colored eyes. As an Ablïarsec, she has pointed ears, yet hers are markedly less so than other Ablïarsec. This is because half her genes (those not from her father) are from someone outside the Abriel clan and her father chose not to make any unnecessary alterations in her genes. She is deemed "child of love" (an Abh child with the genes of the parent, and the one the parent loves). Her full name can be roughly translated to Lamhirh (néïc Dubleuscr) Ablïarsec, Viscountess of Parhyn.\nDespite being a princess, she rarely acts like one and hates being treated as one. One of the reasons she took a liking towards Ghintec is because when they first met, he neither recognized her as a princess nor treated her as one. Their relationship is so close that she freely allows him to use her real name of Lamhirh when addressing her, something that is very uncommon when addressing those of nobility or royalty.\nShe acts remarkably older than her age (at her introduction in Crest of the Stars, she is 16 years old) and can, in most cases, logically think her way out of most situations. However, her headstrong nature sometimes clouds her judgement and can lead her to become impulsive. An example of this is when she is reprimanded by Laicch for wishing to stay behind on the Gothlauth instead of continuing her mission of escorting Ghintec to the capital. She believes that she would have been of more use fighting with the crew rather than abandoning them. She is quickly shown how wrong her line of reasoning is and how much more disgraceful it would have been to abandon Ghintec and her mission. She is a remarkably good shot and although she sometimes doubts herself, she proves to be a worthy ship captain (deca-commander) in Banner of the Stars. She shows little emotion throughout Crest of the Stars, but as time goes by became very close friend with Ghintec through Banner of the Stars. This is especially true in later installments, where she more frequently questions how their friendship will last due to the doubt of Ghintec`s lifespan.\nShe is one of the candidates for the Abh Imperial Throne and, as indicated by her full name, she is the Viscountess of Parhynh, the so-called "Country, or Nation, of Roses."',
       picture: '14304.jpg',
-      seiyuu: { id: 12, picture: '184301.jpg', name: 'Kawasumi Ayako' }
+      seiyuu: [{ id: 12, picture: '184301.jpg', name: 'Kawasumi Ayako' }]
     },
     {
       id: 4079,
@@ -787,7 +787,7 @@ module.exports = {
       description:
         'Lafiel`s father, the King of Kryv and a son of the current reigning empress.',
       picture: '20037.jpg',
-      seiyuu: { id: 3136, picture: '24121.jpg', name: 'Suzuoki Hirotaka' }
+      seiyuu: [{ id: 3136, picture: '24121.jpg', name: 'Suzuoki Hirotaka' }]
     },
     {
       id: 4080,
@@ -801,7 +801,7 @@ module.exports = {
       description:
         'The captain of the Gosroth (Gothlauth), she is every bit as smart, beautiful, dedicated and stubborn as Lafiel, but older and wiser. Judging from her name, Lexshu`s rank in the Abh social hierarchy is that of a reucec (knight or dame).',
       picture: '20038.jpg',
-      seiyuu: { id: 404, picture: '151682.jpg', name: 'Takashima Gara' }
+      seiyuu: [{ id: 404, picture: '151682.jpg', name: 'Takashima Gara' }]
     },
     {
       id: 4081,
@@ -815,7 +815,7 @@ module.exports = {
       description:
         'Born Jinto Lynn on planet Martine (spelt as Martinh in Baronh) of the Hyde star system (Haïdec in Baronh), he was the son of Rock Lynn, a politician who eventually became president of the Hyde star system. It was during his administration that the Abh empire was able to annex the Hyde stellar system into its territory through an invasion. Making his own ideas more valuable than the rights of the people of Martine, Rock Lin made a deal with the leaders of the invading forces that the territorial lord of Hyde shall be chosen amongst the people of Martine. The leader of the invading forces agreed to this however this meant that an election cannot be held making Rock, as the current leader of Martine, the natural choice to become its territorial lord. Because of this, Rock Lynn, and with him, Jinto, rose to the ranks of Abh nobility as Count of Haïdec.',
       picture: '20036.jpg',
-      seiyuu: { id: 362, picture: '74735.jpg', name: 'Imai Yuka' }
+      seiyuu: [{ id: 362, picture: '74735.jpg', name: 'Imai Yuka' }]
     },
     {
       id: 4082,
@@ -829,7 +829,7 @@ module.exports = {
       description:
         'The current Dusanyu, or Crown Prince, of the Abh Empire of Mankind, the Baronh name of which is Frybar Gloer Gor Bari (Frybarec Gloer Gor Bari), Also the Commander-in-Chief of the Abh Armed Forces, who personally led the invasion of the Hyde star system.',
       picture: '20035.jpg',
-      seiyuu: { id: 1819, picture: '20694.jpg', name: 'Shiozawa Kaneto' }
+      seiyuu: [{ id: 1819, picture: '20694.jpg', name: 'Shiozawa Kaneto' }]
     },
     {
       id: 4083,
@@ -843,7 +843,7 @@ module.exports = {
       description:
         'Despite verging on excessive caution, he is nonetheless one of the most able tacticians in the Labule. He puts every aspect and factor under consideration, frequently asking his subordinates` opinions and assessments before starting an operation. He is also one of the least loved officers.',
       picture: '20034.jpg',
-      seiyuu: { id: 220, picture: '17038.jpg', name: 'Kosugi Juurouta' }
+      seiyuu: [{ id: 220, picture: '17038.jpg', name: 'Kosugi Juurouta' }]
     },
     {
       id: 4084,
@@ -857,7 +857,7 @@ module.exports = {
       description:
         'This red-eyed Grand Duchess is one of the most eccentric officers in the Labule, which does not change the fact that she is one of its most able admirals. Though complaining of boredom most of the time, she suddenly springs into action when needed. One of her favourite pastimes is mercilessly teasing Kaselia, her chief of staff.',
       picture: '20033.jpg',
-      seiyuu: { id: 1509, picture: '19311.jpg', name: 'Fukami Rika' }
+      seiyuu: [{ id: 1509, picture: '19311.jpg', name: 'Fukami Rika' }]
     },
     {
       id: 4085,
@@ -871,7 +871,7 @@ module.exports = {
       description:
         'The third Baron of Febdak (Faibdash), an obscure star system where Jinto and Lafiel made a stopover en route to Safugnoff (Sfagnaumh). He had an inferiority complex due to his clan`s origins and brief history, causing him to confine and isolate his own father. He tried to abduct Lafiel and imprison Jinto, which brought dire consequences onto himself.',
       picture: '20032.jpg',
-      seiyuu: { id: 139, picture: '29283.jpg', name: 'Koyasu Takehito' }
+      seiyuu: [{ id: 139, picture: '29283.jpg', name: 'Koyasu Takehito' }]
     },
     {
       id: 4086,
@@ -885,7 +885,7 @@ module.exports = {
       description:
         'The second Baron of Febdak and father of Klowal. Srguf`s mother was the first Baroness, who gained distinction by rising through the Imperial Star Force, or Labule (Laburec). Due to his being a genetic "grounder," his own son despised him resulting in confinement and isolation. He eventually befriended Jinto and aided Lafiel in "punishing" Klowal. His daughter, Loïc eventually became the Baroness of Febdak and a commanding officer to Lafiel and Jinto.',
       picture: '20039.jpg',
-      seiyuu: { id: 39, picture: '16629.jpg', name: 'Mugihito' }
+      seiyuu: [{ id: 39, picture: '16629.jpg', name: 'Mugihito' }]
     },
     {
       id: 4087,
@@ -898,7 +898,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '20044.jpg',
-      seiyuu: { id: 339, picture: '79312.jpg', name: 'Ishizuka Unshou' }
+      seiyuu: [{ id: 339, picture: '79312.jpg', name: 'Ishizuka Unshou' }]
     },
     {
       id: 4088,
@@ -911,7 +911,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '20045.jpg',
-      seiyuu: { id: 3312, picture: '24691.jpg', name: 'Ikemizu Michihiro' }
+      seiyuu: [{ id: 3312, picture: '24691.jpg', name: 'Ikemizu Michihiro' }]
     },
     {
       id: 7493,
@@ -924,7 +924,7 @@ module.exports = {
       characterType: { id: 4, name: 'Vessel' },
       description: 'The Resii Gothroth.\nThe first Abh ship lost in the war.',
       picture: '60215.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 7501,
@@ -937,7 +937,7 @@ module.exports = {
       characterType: { id: 3, name: 'Organization' },
       description: 'The homeworld of Jinto',
       picture: '150280.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 7503,
@@ -951,7 +951,7 @@ module.exports = {
       description:
         'The former president of Martine, later made count of the Hyde system, after striking a deal with the Abh (in episode 1)',
       picture: '26165.jpg',
-      seiyuu: { id: 1733, picture: '25839.jpg', name: 'Tanaka Hideyuki' }
+      seiyuu: [{ id: 1733, picture: '25839.jpg', name: 'Tanaka Hideyuki' }]
     },
     {
       id: 7512,
@@ -964,7 +964,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: 'Jinto, before he became a noble of the Abh.',
       picture: '26167.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 7514,
@@ -977,7 +977,7 @@ module.exports = {
       characterType: { id: 3, name: 'Organization' },
       description: undefined,
       picture: '26171.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 7516,
@@ -990,7 +990,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '26175.jpg',
-      seiyuu: { id: 4193, picture: '154158.jpg', name: 'Suzuki Eiichirou' }
+      seiyuu: [{ id: 4193, picture: '154158.jpg', name: 'Suzuki Eiichirou' }]
     },
     {
       id: 21911,
@@ -1003,7 +1003,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55529.jpg',
-      seiyuu: { id: 4708, picture: '94172.jpg', name: 'Hosono Masayo' }
+      seiyuu: [{ id: 4708, picture: '94172.jpg', name: 'Hosono Masayo' }]
     },
     {
       id: 21943,
@@ -1016,7 +1016,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55561.jpg',
-      seiyuu: { id: 2799, picture: '23198.jpg', name: 'Matsuno Taiki' }
+      seiyuu: [{ id: 2799, picture: '23198.jpg', name: 'Matsuno Taiki' }]
     },
     {
       id: 21944,
@@ -1029,7 +1029,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55562.jpg',
-      seiyuu: { id: 17008, picture: '46192.jpg', name: 'Fuji Takako' }
+      seiyuu: [{ id: 17008, picture: '46192.jpg', name: 'Fuji Takako' }]
     },
     {
       id: 21945,
@@ -1042,7 +1042,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55563.jpg',
-      seiyuu: { id: 1913, picture: '186187.jpg', name: 'Chiba Isshin' }
+      seiyuu: [{ id: 1913, picture: '186187.jpg', name: 'Chiba Isshin' }]
     },
     {
       id: 21946,
@@ -1055,7 +1055,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55564.jpg',
-      seiyuu: { id: 370, picture: '204461.jpg', name: 'Yusa Kouji' }
+      seiyuu: [{ id: 370, picture: '204461.jpg', name: 'Yusa Kouji' }]
     },
     {
       id: 21947,
@@ -1068,7 +1068,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55566.jpg',
-      seiyuu: { id: 2899, picture: '79024.jpg', name: 'Miyazaki Issei' }
+      seiyuu: [{ id: 2899, picture: '79024.jpg', name: 'Miyazaki Issei' }]
     },
     {
       id: 21948,
@@ -1081,7 +1081,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55567.jpg',
-      seiyuu: { id: 399, picture: '17244.jpg', name: 'Suyama Akio' }
+      seiyuu: [{ id: 399, picture: '17244.jpg', name: 'Suyama Akio' }]
     },
     {
       id: 21949,
@@ -1094,7 +1094,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '55568.jpg',
-      seiyuu: { id: 21499, picture: '188514.jpg', name: 'Tomokawa Mari' }
+      seiyuu: [{ id: 21499, picture: '188514.jpg', name: 'Tomokawa Mari' }]
     },
     {
       id: 21954,
@@ -1108,7 +1108,7 @@ module.exports = {
       description:
         'The 37th and current reigning empress of the Abh Empire, she is also Lafiel`s grandmother. She also holds the title "Dreuc Ablïarser" (Countess of Ablïarsec; Ablïarsec is also the name of the stellar system where Lakfakalle (Lacmhacarh), the imperial capital, is located).',
       picture: '55576.jpg',
-      seiyuu: { id: 542, picture: '60897.jpg', name: 'Doi Mika' }
+      seiyuu: [{ id: 542, picture: '60897.jpg', name: 'Doi Mika' }]
     },
     {
       id: 21958,
@@ -1121,7 +1121,7 @@ module.exports = {
       characterType: { id: 4, name: 'Vessel' },
       description: undefined,
       picture: '55580.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 40209,
@@ -1135,7 +1135,7 @@ module.exports = {
       description:
         'Jinto`s cat.\n\nLafiel gave him to Jinto at the end of http://anidb.net/a1 [Seikai no Monshou].\nHe is the son of Zanelia who is the daughter of Holia.',
       picture: '79471.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 49519,
@@ -1148,7 +1148,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '50186.jpg',
-      seiyuu: { id: 7, picture: '186500.jpg', name: 'Ootani Ikue' }
+      seiyuu: [{ id: 7, picture: '186500.jpg', name: 'Ootani Ikue' }]
     }
   ],
   episodes: [

@@ -743,7 +743,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '87205.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 41757,
@@ -756,7 +756,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '93217.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 43825,
@@ -769,7 +769,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '86533.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 43826,
@@ -782,7 +782,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '128389.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 44334,
@@ -795,7 +795,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '87204.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 44753,
@@ -808,7 +808,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '130605.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 44754,
@@ -821,7 +821,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '128390.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 45189,
@@ -834,7 +834,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '88446.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 48411,
@@ -847,7 +847,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '126939.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 48412,
@@ -860,7 +860,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '126938.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 48413,
@@ -873,7 +873,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '126937.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 48414,
@@ -886,7 +886,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '126941.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 48415,
@@ -899,7 +899,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '126940.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 62255,
@@ -912,7 +912,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '147534.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 62258,
@@ -925,7 +925,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '206318.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 72621,
@@ -938,7 +938,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '168605.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 72622,
@@ -951,7 +951,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '168606.jpg',
-      seiyuu: { id: 28225, picture: '156289.jpg', name: 'Kasumi Ryou' }
+      seiyuu: [{ id: 28225, picture: '156289.jpg', name: 'Kasumi Ryou' }]
     },
     {
       id: 73073,
@@ -964,7 +964,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '168607.jpg',
-      seiyuu: { id: 42377, picture: '188563.jpg', name: 'Yuika' }
+      seiyuu: [{ id: 42377, picture: '188563.jpg', name: 'Yuika' }]
     },
     {
       id: 74165,
@@ -977,7 +977,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '171896.jpg',
-      seiyuu: { id: 42735, picture: undefined, name: 'Suzukawa Hiro' }
+      seiyuu: [{ id: 42735, picture: undefined, name: 'Suzukawa Hiro' }]
     },
     {
       id: 74177,
@@ -990,7 +990,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '171758.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 74284,
@@ -1003,7 +1003,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '173324.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 74285,
@@ -1016,7 +1016,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '173325.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 74286,
@@ -1029,7 +1029,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '173323.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 75393,
@@ -1042,7 +1042,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '173833.jpg',
-      seiyuu: { id: 16006, picture: '75317.jpg', name: 'Kasuga An' }
+      seiyuu: [{ id: 16006, picture: '75317.jpg', name: 'Kasuga An' }]
     },
     {
       id: 76164,
@@ -1055,7 +1055,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '175079.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 76165,
@@ -1068,7 +1068,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '175076.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 76166,
@@ -1081,7 +1081,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '175078.jpg',
-      seiyuu: undefined
+      seiyuu: []
     },
     {
       id: 76167,
@@ -1094,7 +1094,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: undefined,
       picture: '175077.jpg',
-      seiyuu: undefined
+      seiyuu: []
     }
   ],
   episodes: [
