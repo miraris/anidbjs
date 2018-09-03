@@ -75,6 +75,58 @@ module.exports = {
     { id: 8924, type: 'Series Composition', name: 'Yoshinaga Aya' },
     { id: 4495, type: 'Original Work', name: 'Morioka Hiroyuki' }
   ],
+  resources: [
+    {
+      type: 1,
+      externalEntity: [{ ids: ['14'], url: undefined }]
+    },
+    {
+      type: 2,
+      externalEntity: [{ ids: ['290'], url: undefined }]
+    },
+    {
+      type: 3,
+      externalEntity: [{ ids: ['376', 'xzudnt'], url: undefined }]
+    },
+    {
+      type: 4,
+      externalEntity: [
+        { ids: undefined, url: 'http://www.sunrise-inc.co.jp/seikai/' }
+      ]
+    },
+    {
+      type: 6,
+      externalEntity: [{ ids: ['Crest_of_the_Stars'], url: undefined }]
+    },
+    {
+      type: 7,
+      externalEntity: [{ ids: ['星界の紋章'], url: undefined }]
+    },
+    {
+      type: 8,
+      externalEntity: [{ ids: ['1333'], url: undefined }]
+    },
+    {
+      type: 9,
+      externalEntity: [{ ids: ['90291'], url: undefined }]
+    },
+    {
+      type: 10,
+      externalEntity: [{ ids: ['1869'], url: undefined }]
+    },
+    {
+      type: 14,
+      externalEntity: [{ ids: ['11753', 'v'], url: undefined }]
+    },
+    {
+      type: 17,
+      externalEntity: [{ ids: ['seikai01'], url: undefined }]
+    },
+    {
+      type: 31,
+      externalEntity: [{ ids: ['6674'], url: undefined }]
+    }
+  ],
   tags: [
     {
       id: 36,

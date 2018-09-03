@@ -18,7 +18,7 @@ You need a client registered on AniDB to use this "lib".
 
 The module exports a constructor function which accepts 2 objects - `credentials` and `options` as its only two arguments.
 
-When consuming the response object, you're going to have to check for undefined in certain nested objects such as `character.seiyuu` and similar ¯\_(ツ)\_/¯
+When consuming the response object, you're going to have to check for undefined in certain nested objects such as `character.seiyuu` and similar ¯\\_(ツ)\_/¯
 
 [Optional chaining](https://babeljs.io/docs/en/next/babel-plugin-proposal-optional-chaining) might be helpful here.
 

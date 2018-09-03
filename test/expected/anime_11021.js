@@ -31,6 +31,37 @@ module.exports = {
     { id: 942, type: 'Original Work', name: 'Waffle' },
     { id: 33720, type: 'Direction', name: 'Matano Ryuuzou' }
   ],
+  resources: [
+    {
+      type: 2,
+      externalEntity: [{ ids: ['29575'], url: undefined }]
+    },
+    {
+      type: 4,
+      externalEntity: [
+        {
+          ids: undefined,
+          url: 'http://a1c.jp/~collabo/product/mankitu01.html'
+        },
+        {
+          ids: undefined,
+          url: 'http://a1c.jp/~collabo/product/mankitu02.html'
+        },
+        {
+          ids: undefined,
+          url: 'http://a1c.jp/~collabo/product/mankitu03.html'
+        },
+        {
+          ids: undefined,
+          url: 'http://a1c.jp/~collabo/product/mankitu04.html'
+        }
+      ]
+    },
+    {
+      type: 14,
+      externalEntity: [{ ids: ['14650', 'v'], url: undefined }]
+    }
+  ],
   tags: [
     {
       id: 301,

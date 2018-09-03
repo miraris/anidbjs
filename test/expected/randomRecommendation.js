@@ -17,6 +17,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -39,6 +40,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -61,6 +63,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -83,6 +86,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -105,6 +109,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -127,6 +132,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -149,6 +155,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -171,6 +178,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -193,6 +201,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
@@ -215,6 +224,7 @@ module.exports = [
     recommendations: [],
     url: undefined,
     creators: [],
+    resources: [],
     tags: [],
     characters: [],
     episodes: []
