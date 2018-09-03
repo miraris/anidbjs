@@ -14,9 +14,7 @@ describe('AniDb: Anime', _ => {
   const client = new AniDb({ client: 'animeplugin', version: 1 })
 
   let returnFile = ''
-  client.request = async _ => {
-    return fs.readFileSync(returnFile, { encoding: 'utf8' })
-  }
+  client.request = async _ => fs.readFileSync(returnFile, { encoding: 'utf8' })
 
   it('Should fail when providing insufficient arguments', done => {
     ;(_ => {
@@ -28,18 +26,16 @@ describe('AniDb: Anime', _ => {
   it('Random recommendation should give expected result', done => {
     returnFile = './test/data/randomRecommendation.xml'
 
-    client
-      .randomRecommendation()
-      .then(anime => {
-        const expected = require('./expected/randomRecommendation.js')
-        toEqualOwnProperties(anime, expected)
-        done()
-      })
-      .catch(err => console.error(err))
+    client.randomRecommendation().then(anime => {
+      const expected = require('./expected/randomRecommendation.js')
+      toEqualOwnProperties(anime, expected)
+      done()
+    })
   })
 
   it('Anime 01 should give expected result', done => {
     returnFile = './test/data/anime_01.xml'
+
     client.anime(1).then(anime => {
       const expected = require('./expected/anime_01.js')
       toEqualOwnProperties(anime, expected)

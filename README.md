@@ -16,7 +16,13 @@ You need a client registered on AniDB to use this "lib".
 
 ## Usage
 
-The module exports a constructor function which takes the 2 objects - `credentials` and `options` as its only two arguments.
+The module exports a constructor function which accepts 2 objects - `credentials` and `options` as its only two arguments.
+
+When consuming the response object, you're going to have to check for undefined in certain nested objects such as `character.seiyuu` and similar ¯\_(ツ)\_/¯
+
+[Optional chaining](https://babeljs.io/docs/en/next/babel-plugin-proposal-optional-chaining) might be helpful here.
+
+### Example
 
 ```javascript
 const AniDb = require("anidb");
@@ -29,7 +35,11 @@ client
 
 client
   .anime(1)
-  .then(res => console.log(res))
+  .then(res => {
+    res.characters.forEach(char =>
+      console.log(char.seiyuu && char.seiyuu.name)
+    );
+  })
   .catch(err => console.error(err));
 ```
 

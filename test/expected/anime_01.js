@@ -5,7 +5,6 @@ module.exports = {
   episodeCount: 13,
   startDate: '1999-01-03',
   endDate: '1999-03-28',
-  url: 'http://www.sunrise-inc.co.jp/seikai/',
   titles: [
     { title: 'Seikai no Monshou', language: 'x-jat', type: 'main' },
     { title: 'Hvězdný erb', language: 'cs', type: 'synonym' },
@@ -25,6 +24,57 @@ module.exports = {
     temporary: { score: '8.23', count: '4457' },
     review: { score: '8.70', count: '12' }
   },
+  recommendations: [
+    {
+      type: 'Recommended',
+      uid: 567190,
+      content:
+        'As has been said, a solid space opera, but where it really shines is the two protagonists and how they interact. They have misunderstandings constantly, but they just talk it out until they come to a better understanding of each other. It`s beautiful.\n\nThe series does have its issues. The art style and animation are fine despite the age, but the direction and editing are incredibly shoddy at times and the pacing is off where subplots are concerned. Not to mention the overly drawn out, drily delivered exposition at the start of every episode.\n\nThat said, at 13 episodes it`s still an easy recommendation. Watching two people work that hard at empathy is such a rare treat. Don`t miss this if you want some refreshingly straightforward romance.'
+    },
+    {
+      type: 'Recommended',
+      uid: 350281,
+      content:
+        'Space opera with an exciting buildup and a sublime crescendo. 4X players, don`t miss this!'
+    },
+    {
+      type: 'Recommended',
+      uid: 112858,
+      content:
+        'If you`re into scifi and generally more sophisticated stuff than brainless entertainment, this is a must see. Everyone else at least take a close look, you might be suprised.'
+    },
+    {
+      type: 'Must See',
+      uid: 411532,
+      content:
+        'Strong characters and Great plot.  One of the best Space Opera`s I`ve seen.'
+    },
+    {
+      type: 'Must See',
+      uid: 284037,
+      content: 'Awesome! Dunno what to say, but it`s just.... awesome!'
+    },
+    {
+      type: 'Must See',
+      uid: 125868,
+      content:
+        'This is the second best anime of all time, behind seikai no senki II closely followed by seikai no senki II.  This is a must see anime.  Excellenet plots, environment, characters, development, and re-watch value.'
+    },
+    {
+      type: 'Must See',
+      uid: 691547,
+      content:
+        'An awesome space opera\nthat tries to answer a simple yet complicated question:\nCan humans be friends with aliens?\nSo if you`re looking for an answer watch this.\nBtw think of this series as a small grandchild\nof a great EPIC like LoGH\nbut with Lafiel in the lead'
+    }
+  ],
+  url: 'http://www.sunrise-inc.co.jp/seikai/',
+  creators: [
+    { id: 4303, type: 'Music', name: 'Hattori Katsuhisa' },
+    { id: 4234, type: 'Direction', name: 'Nagaoka Yasuchika' },
+    { id: 4516, type: 'Character Design', name: 'Watabe Keisuke' },
+    { id: 8924, type: 'Series Composition', name: 'Yoshinaga Aya' },
+    { id: 4495, type: 'Original Work', name: 'Morioka Hiroyuki' }
+  ],
   tags: [
     {
       id: 36,
@@ -656,6 +706,397 @@ module.exports = {
       description: undefined,
       pictureUrl: undefined,
       updatedAt: '2018-01-02'
+    }
+  ],
+  characters: [
+    {
+      id: 28,
+      type: 'main character in',
+      updatedAt: '2012-07-25',
+      rating: 9.2,
+      votes: 1182,
+      name: 'Abriel Nei Debrusc Borl Paryun Lafiel',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'Ablïarsec néïc Dubreuscr Bœrh Parhynr Lamhirh (a.k.a., Viscountess Paryunu Abriel Nei Dobrusk Lafiel) is the main female protagonist in the anime Crest of the Stars, Banner of the Stars, and Banner of the Stars II, as well as all the novels written by Morioka Hiroyuki on which the shows were based. She is a strong-willed Abh princess (granddaughter of the Abh empress) who has a steely exterior, but ends up befriending Ghintec Linn (Jinto Lynn in the Martinh tongue). Like all Abh, she has bluish hued hair, and has a natural lifespan of over 200 years. Lamhirh also has lapis lazuli colored eyes. As an Ablïarsec, she has pointed ears, yet hers are markedly less so than other Ablïarsec. This is because half her genes (those not from her father) are from someone outside the Abriel clan and her father chose not to make any unnecessary alterations in her genes. She is deemed "child of love" (an Abh child with the genes of the parent, and the one the parent loves). Her full name can be roughly translated to Lamhirh (néïc Dubleuscr) Ablïarsec, Viscountess of Parhyn.\nDespite being a princess, she rarely acts like one and hates being treated as one. One of the reasons she took a liking towards Ghintec is because when they first met, he neither recognized her as a princess nor treated her as one. Their relationship is so close that she freely allows him to use her real name of Lamhirh when addressing her, something that is very uncommon when addressing those of nobility or royalty.\nShe acts remarkably older than her age (at her introduction in Crest of the Stars, she is 16 years old) and can, in most cases, logically think her way out of most situations. However, her headstrong nature sometimes clouds her judgement and can lead her to become impulsive. An example of this is when she is reprimanded by Laicch for wishing to stay behind on the Gothlauth instead of continuing her mission of escorting Ghintec to the capital. She believes that she would have been of more use fighting with the crew rather than abandoning them. She is quickly shown how wrong her line of reasoning is and how much more disgraceful it would have been to abandon Ghintec and her mission. She is a remarkably good shot and although she sometimes doubts herself, she proves to be a worthy ship captain (deca-commander) in Banner of the Stars. She shows little emotion throughout Crest of the Stars, but as time goes by became very close friend with Ghintec through Banner of the Stars. This is especially true in later installments, where she more frequently questions how their friendship will last due to the doubt of Ghintec`s lifespan.\nShe is one of the candidates for the Abh Imperial Throne and, as indicated by her full name, she is the Viscountess of Parhynh, the so-called "Country, or Nation, of Roses."',
+      picture: '14304.jpg',
+      seiyuu: { id: 12, picture: '184301.jpg', name: 'Kawasumi Ayako' }
+    },
+    {
+      id: 4079,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 6.17,
+      votes: 19,
+      name: 'Abriel Nei Debrusc Larth Kryb Debeus',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'Lafiel`s father, the King of Kryv and a son of the current reigning empress.',
+      picture: '20037.jpg',
+      seiyuu: { id: 3136, picture: '24121.jpg', name: 'Suzuoki Hirotaka' }
+    },
+    {
+      id: 4080,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 8.79,
+      votes: 30,
+      name: 'Lexshu Wef-Robell Plakia',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'The captain of the Gosroth (Gothlauth), she is every bit as smart, beautiful, dedicated and stubborn as Lafiel, but older and wiser. Judging from her name, Lexshu`s rank in the Abh social hierarchy is that of a reucec (knight or dame).',
+      picture: '20038.jpg',
+      seiyuu: { id: 404, picture: '151682.jpg', name: 'Takashima Gara' }
+    },
+    {
+      id: 4081,
+      type: 'main character in',
+      updatedAt: '2012-07-25',
+      rating: 7.52,
+      votes: 210,
+      name: 'Linn Syun-Rock Dreu Haider Jinto',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'Born Jinto Lynn on planet Martine (spelt as Martinh in Baronh) of the Hyde star system (Haïdec in Baronh), he was the son of Rock Lynn, a politician who eventually became president of the Hyde star system. It was during his administration that the Abh empire was able to annex the Hyde stellar system into its territory through an invasion. Making his own ideas more valuable than the rights of the people of Martine, Rock Lin made a deal with the leaders of the invading forces that the territorial lord of Hyde shall be chosen amongst the people of Martine. The leader of the invading forces agreed to this however this meant that an election cannot be held making Rock, as the current leader of Martine, the natural choice to become its territorial lord. Because of this, Rock Lynn, and with him, Jinto, rose to the ranks of Abh nobility as Count of Haïdec.',
+      picture: '20036.jpg',
+      seiyuu: { id: 362, picture: '74735.jpg', name: 'Imai Yuka' }
+    },
+    {
+      id: 4082,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 8.71,
+      votes: 63,
+      name: 'Abriel Nei Lamsar Larth Balkei Dusanyu',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'The current Dusanyu, or Crown Prince, of the Abh Empire of Mankind, the Baronh name of which is Frybar Gloer Gor Bari (Frybarec Gloer Gor Bari), Also the Commander-in-Chief of the Abh Armed Forces, who personally led the invasion of the Hyde star system.',
+      picture: '20035.jpg',
+      seiyuu: { id: 1819, picture: '20694.jpg', name: 'Shiozawa Kaneto' }
+    },
+    {
+      id: 4083,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 6.69,
+      votes: 19,
+      name: 'Trife Boli Yuvdale Remsale',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'Despite verging on excessive caution, he is nonetheless one of the most able tacticians in the Labule. He puts every aspect and factor under consideration, frequently asking his subordinates` opinions and assessments before starting an operation. He is also one of the least loved officers.',
+      picture: '20034.jpg',
+      seiyuu: { id: 220, picture: '17038.jpg', name: 'Kosugi Juurouta' }
+    },
+    {
+      id: 4084,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 9.08,
+      votes: 224,
+      name: 'Spoor Aron Sekpadao Letopanyu Peneju',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'This red-eyed Grand Duchess is one of the most eccentric officers in the Labule, which does not change the fact that she is one of its most able admirals. Though complaining of boredom most of the time, she suddenly springs into action when needed. One of her favourite pastimes is mercilessly teasing Kaselia, her chief of staff.',
+      picture: '20033.jpg',
+      seiyuu: { id: 1509, picture: '19311.jpg', name: 'Fukami Rika' }
+    },
+    {
+      id: 4085,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 2.84,
+      votes: 16,
+      name: 'Atosryua Syun-Atos Lyuf Raika Febdak Klowal',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'The third Baron of Febdak (Faibdash), an obscure star system where Jinto and Lafiel made a stopover en route to Safugnoff (Sfagnaumh). He had an inferiority complex due to his clan`s origins and brief history, causing him to confine and isolate his own father. He tried to abduct Lafiel and imprison Jinto, which brought dire consequences onto himself.',
+      picture: '20032.jpg',
+      seiyuu: { id: 139, picture: '29283.jpg', name: 'Koyasu Takehito' }
+    },
+    {
+      id: 4086,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 6.64,
+      votes: 16,
+      name: 'Atosryua Syun-Atos Lyuf Raika Febdak Srguf',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'The second Baron of Febdak and father of Klowal. Srguf`s mother was the first Baroness, who gained distinction by rising through the Imperial Star Force, or Labule (Laburec). Due to his being a genetic "grounder," his own son despised him resulting in confinement and isolation. He eventually befriended Jinto and aided Lafiel in "punishing" Klowal. His daughter, Loïc eventually became the Baroness of Febdak and a commanding officer to Lafiel and Jinto.',
+      picture: '20039.jpg',
+      seiyuu: { id: 39, picture: '16629.jpg', name: 'Mugihito' }
+    },
+    {
+      id: 4087,
+      type: 'appears in',
+      updatedAt: '2009-02-28',
+      rating: 5.33,
+      votes: 5,
+      name: 'Entoryua Rei',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '20044.jpg',
+      seiyuu: { id: 339, picture: '79312.jpg', name: 'Ishizuka Unshou' }
+    },
+    {
+      id: 4088,
+      type: 'secondary cast in',
+      updatedAt: '2009-02-28',
+      rating: 1.41,
+      votes: 6,
+      name: 'Kaito',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '20045.jpg',
+      seiyuu: { id: 3312, picture: '24691.jpg', name: 'Ikemizu Michihiro' }
+    },
+    {
+      id: 7493,
+      type: 'appears in',
+      updatedAt: '2010-12-03',
+      rating: 6.14,
+      votes: 2,
+      name: 'Gosroth',
+      gender: 'unknown',
+      characterType: { id: 4, name: 'Vessel' },
+      description: 'The Resii Gothroth.\nThe first Abh ship lost in the war.',
+      picture: '60215.jpg',
+      seiyuu: undefined
+    },
+    {
+      id: 7501,
+      type: 'appears in',
+      updatedAt: '2014-02-15',
+      rating: 3.81,
+      votes: 1,
+      name: 'Wakusei Martine',
+      gender: 'unknown',
+      characterType: { id: 3, name: 'Organization' },
+      description: 'The homeworld of Jinto',
+      picture: '150280.jpg',
+      seiyuu: undefined
+    },
+    {
+      id: 7503,
+      type: 'appears in',
+      updatedAt: '2009-05-27',
+      rating: 3.35,
+      votes: 2,
+      name: 'Rock Lynn',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'The former president of Martine, later made count of the Hyde system, after striking a deal with the Abh (in episode 1)',
+      picture: '26165.jpg',
+      seiyuu: { id: 1733, picture: '25839.jpg', name: 'Tanaka Hideyuki' }
+    },
+    {
+      id: 7512,
+      type: 'secondary cast in',
+      updatedAt: '2009-05-27',
+      rating: 2.98,
+      votes: 5,
+      name: 'Jinto Lynn',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: 'Jinto, before he became a noble of the Abh.',
+      picture: '26167.jpg',
+      seiyuu: undefined
+    },
+    {
+      id: 7514,
+      type: 'appears in',
+      updatedAt: '2009-05-27',
+      rating: 8.15,
+      votes: 12,
+      name: 'Abh Teikoku',
+      gender: 'unknown',
+      characterType: { id: 3, name: 'Organization' },
+      description: undefined,
+      picture: '26171.jpg',
+      seiyuu: undefined
+    },
+    {
+      id: 7516,
+      type: 'appears in',
+      updatedAt: '2009-05-27',
+      rating: 1.92,
+      votes: 3,
+      name: 'Till Corinth',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '26175.jpg',
+      seiyuu: { id: 4193, picture: '154158.jpg', name: 'Suzuki Eiichirou' }
+    },
+    {
+      id: 21911,
+      type: 'appears in',
+      updatedAt: '2010-09-27',
+      rating: 5.54,
+      votes: 5,
+      name: 'Lina Clint',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55529.jpg',
+      seiyuu: { id: 4708, picture: '94172.jpg', name: 'Hosono Masayo' }
+    },
+    {
+      id: 21943,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 5.97,
+      votes: 8,
+      name: 'Ku Dorin',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55561.jpg',
+      seiyuu: { id: 2799, picture: '23198.jpg', name: 'Matsuno Taiki' }
+    },
+    {
+      id: 21944,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 4.8,
+      votes: 3,
+      name: 'Gyumuryua',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55562.jpg',
+      seiyuu: { id: 17008, picture: '46192.jpg', name: 'Fuji Takako' }
+    },
+    {
+      id: 21945,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 7.15,
+      votes: 2,
+      name: 'Deesh',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55563.jpg',
+      seiyuu: { id: 1913, picture: '186187.jpg', name: 'Chiba Isshin' }
+    },
+    {
+      id: 21946,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 5.14,
+      votes: 2,
+      name: 'Lairia',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55564.jpg',
+      seiyuu: { id: 370, picture: '204461.jpg', name: 'Yusa Kouji' }
+    },
+    {
+      id: 21947,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 6.17,
+      votes: 2,
+      name: 'Leshikuna',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55566.jpg',
+      seiyuu: { id: 2899, picture: '79024.jpg', name: 'Miyazaki Issei' }
+    },
+    {
+      id: 21948,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 4.2,
+      votes: 2,
+      name: 'Saryush',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55567.jpg',
+      seiyuu: { id: 399, picture: '17244.jpg', name: 'Suyama Akio' }
+    },
+    {
+      id: 21949,
+      type: 'secondary cast in',
+      updatedAt: '2010-09-28',
+      rating: 4.8,
+      votes: 3,
+      name: 'Yunseryua',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '55568.jpg',
+      seiyuu: { id: 21499, picture: '188514.jpg', name: 'Tomokawa Mari' }
+    },
+    {
+      id: 21954,
+      type: 'secondary cast in',
+      updatedAt: '2011-04-08',
+      rating: 5.38,
+      votes: 7,
+      name: 'Abriel Nei Debrusc Spunej Ramaj',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'The 37th and current reigning empress of the Abh Empire, she is also Lafiel`s grandmother. She also holds the title "Dreuc Ablïarser" (Countess of Ablïarsec; Ablïarsec is also the name of the stellar system where Lakfakalle (Lacmhacarh), the imperial capital, is located).',
+      picture: '55576.jpg',
+      seiyuu: { id: 542, picture: '60897.jpg', name: 'Doi Mika' }
+    },
+    {
+      id: 21958,
+      type: 'appears in',
+      updatedAt: '2015-02-07',
+      rating: 8.05,
+      votes: 3,
+      name: 'Futune',
+      gender: 'none/does not apply',
+      characterType: { id: 4, name: 'Vessel' },
+      description: undefined,
+      picture: '55580.jpg',
+      seiyuu: undefined
+    },
+    {
+      id: 40209,
+      type: 'appears in',
+      updatedAt: '2012-01-04',
+      rating: 5.34,
+      votes: 15,
+      name: 'Diaho',
+      gender: 'male',
+      characterType: { id: 1, name: 'Character' },
+      description:
+        'Jinto`s cat.\n\nLafiel gave him to Jinto at the end of http://anidb.net/a1 [Seikai no Monshou].\nHe is the son of Zanelia who is the daughter of Holia.',
+      picture: '79471.jpg',
+      seiyuu: undefined
+    },
+    {
+      id: 49519,
+      type: 'appears in',
+      updatedAt: '2012-09-30',
+      rating: 2.5,
+      votes: 2,
+      name: 'Seelnay',
+      gender: 'female',
+      characterType: { id: 1, name: 'Character' },
+      description: undefined,
+      picture: '50186.jpg',
+      seiyuu: { id: 7, picture: '186500.jpg', name: 'Ootani Ikue' }
     }
   ],
   episodes: [

@@ -6,12 +6,19 @@ module.exports = [
     episodeCount: 10,
     startDate: '2018-07-04',
     endDate: '2018-09-05',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '221819.jpg',
-    ratings: { permanent: { score: '395', count: '43' } },
+    ratings: {
+      permanent: { score: '395', count: '43' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -21,12 +28,19 @@ module.exports = [
     episodeCount: 12,
     startDate: '2006-10-04',
     endDate: '2006-12-20',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '131092.jpg',
-    ratings: { permanent: { score: '827', count: '9759' } },
+    ratings: {
+      permanent: { score: '827', count: '9759' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -36,12 +50,19 @@ module.exports = [
     episodeCount: 1,
     startDate: '2010-11-22',
     endDate: '2010-11-22',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '161609.jpg',
-    ratings: { permanent: { score: '244', count: '188' } },
+    ratings: {
+      permanent: { score: '244', count: '188' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -51,12 +72,19 @@ module.exports = [
     episodeCount: 20,
     startDate: '2000-10-07',
     endDate: '2001-03-24',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '9935.jpg',
-    ratings: { permanent: { score: '693', count: '337' } },
+    ratings: {
+      permanent: { score: '693', count: '337' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -66,12 +94,19 @@ module.exports = [
     episodeCount: 1,
     startDate: '2017-06-17',
     endDate: '2017-06-17',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '221832.jpg',
-    ratings: { permanent: { score: '529', count: '312' } },
+    ratings: {
+      permanent: { score: '529', count: '312' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -81,12 +116,19 @@ module.exports = [
     episodeCount: 12,
     startDate: '2003-07-13',
     endDate: '2003-09-28',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '534.jpg',
-    ratings: { permanent: { score: '432', count: '5323' } },
+    ratings: {
+      permanent: { score: '432', count: '5323' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -96,12 +138,19 @@ module.exports = [
     episodeCount: 6,
     startDate: '2005-12-09',
     endDate: '2006-06-23',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '10733.jpg',
-    ratings: { permanent: { score: '595', count: '1900' } },
+    ratings: {
+      permanent: { score: '595', count: '1900' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -111,12 +160,19 @@ module.exports = [
     episodeCount: 1,
     startDate: '2005-09-23',
     endDate: '2005-09-23',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '47675.jpg',
-    ratings: { permanent: { score: '840', count: '1450' } },
+    ratings: {
+      permanent: { score: '840', count: '1450' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -126,12 +182,19 @@ module.exports = [
     episodeCount: 1,
     startDate: '1992-07-18',
     endDate: '1992-07-18',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '145634.jpg',
-    ratings: { permanent: { score: '772', count: '3820' } },
+    ratings: {
+      permanent: { score: '772', count: '3820' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   },
   {
@@ -141,12 +204,19 @@ module.exports = [
     episodeCount: 12,
     startDate: '2016-01-11',
     endDate: '2016-03-28',
-    url: undefined,
     titles: [],
     description: undefined,
     picture: '180172.jpg',
-    ratings: { permanent: { score: '368', count: '697' } },
+    ratings: {
+      permanent: { score: '368', count: '697' },
+      temporary: { score: undefined, count: undefined },
+      review: { score: undefined, count: undefined }
+    },
+    recommendations: [],
+    url: undefined,
+    creators: [],
     tags: [],
+    characters: [],
     episodes: []
   }
 ]
