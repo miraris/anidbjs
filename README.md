@@ -34,7 +34,7 @@ These are the available config options that are passed to the 2nd constructor ar
   timeout: 5 * 1000, // default
 
   // proxy server url
-  proxy: '192.168.1.1:9000', // default
+  proxy: '192.168.1.1:9000',
 
   // any additional headers that you'd like to pass
   headers: {
