@@ -22,6 +22,27 @@ When consuming the response object, you're going to have to check for undefined 
 
 [Optional chaining](https://babeljs.io/docs/en/next/babel-plugin-proposal-optional-chaining) might be helpful here.
 
+### Options
+These are the available config options that are passed to the 2nd constructor argument.
+
+```js
+{
+  // `url` is the server baseURL that will be used for the request
+  url: 'http://api.anidb.net:9001/httpapi', // default
+
+  // the request timeout in milliseconds
+  timeout: 5 * 1000, // default
+
+  // proxy server url
+  proxy: '192.168.1.1:9000', // default
+
+  // any additional headers that you'd like to pass
+  headers: {
+    'User-Agent': 'my-cool-app/1.0.0'
+  }
+}
+```
+
 ### Example
 
 ```javascript

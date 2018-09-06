@@ -66,7 +66,7 @@ describe('AniDb: Anime', _ => {
   it('Anime 357 should return a successfull response', done => {
     const realClient = new AniDb(
       { client: 'anidbjs', version: 2 },
-      { headers: { 'User-Agent': 'fake user agent' } }
+      { headers: { 'User-Agent': 'anidbjs-test' } }
     )
 
     realClient.anime(357).then(anime => {
