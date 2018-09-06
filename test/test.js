@@ -11,7 +11,7 @@ const toEqualOwnProperties = function toEqualOwnProperties (expected, actual) {
 }
 
 describe('AniDb: Anime', _ => {
-  const client = new AniDb({ client: 'animeplugin', version: 1 })
+  const client = new AniDb({ client: 'anidbjs', version: 2 })
 
   let returnFile = ''
   client.request = async _ => fs.readFileSync(returnFile, { encoding: 'utf8' })
@@ -58,6 +58,19 @@ describe('AniDb: Anime', _ => {
 
     client.anime(11021).then(anime => {
       const expected = require('./expected/anime_11021.js')
+      toEqualOwnProperties(anime, expected)
+      done()
+    })
+  })
+
+  it('Anime 357 should return a successfull response', done => {
+    const realClient = new AniDb(
+      { client: 'anidbjs', version: 2 },
+      { headers: { 'User-Agent': 'fake user agent' } }
+    )
+
+    realClient.anime(357).then(anime => {
+      const expected = require('./expected/anime_357.js')
       toEqualOwnProperties(anime, expected)
       done()
     })
