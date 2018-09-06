@@ -69,10 +69,12 @@ describe('AniDb: Anime', _ => {
       { headers: { 'User-Agent': 'anidbjs-test' } }
     )
 
+    // realClient.proxy = 'http://110.232.83.115:8080'
+
     realClient.anime(357).then(anime => {
       const expected = require('./expected/anime_357.js')
       toEqualOwnProperties(anime, expected)
       done()
     })
-  })
+  }).timeout(10000)
 })
