@@ -46,7 +46,7 @@ These are the available config options that are passed to the 2nd constructor ar
 ### Example
 
 ```javascript
-const AniDb = require("anidb");
+const AniDb = require("anidbjs");
 const client = new AniDb({ client: "myclient", version: 1 });
 
 client
