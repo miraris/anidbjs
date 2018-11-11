@@ -8,7 +8,7 @@ module.exports = {
   titles: [
     { title: 'Test Anime', language: 'x-jat', type: 'main' },
     { title: 'test`blubb', language: 'x-jat', type: 'synonym' },
-    { title: 'ンート', language: 'ja', type: 'official' }
+    { title: 'ンート', language: 'ja', type: 'official' },
   ],
   description:
     'test`blub\norlynow?\nspoiler in anime desc test\ncode in spoiler in anime desc test\ncode outside spoiler in anime desc test',
@@ -16,35 +16,21 @@ module.exports = {
   ratings: {
     permanent: { score: '5.49', count: '214' },
     temporary: { score: '6.18', count: '265' },
-    review: { score: '5.09', count: '7' }
+    review: { score: '5.09', count: '7' },
   },
   recommendations: [
     {
       type: 'For Fans',
       uid: 311037,
-      content:
-        'I watched this on Netflix. 5/7 would re-sub to HBO just to watch the next season.'
+      content: 'I watched this on Netflix. 5/7 would re-sub to HBO just to watch the next season.',
     },
-    {
-      type: 'Must See',
-      uid: 315968,
-      content: 'i love that scene where the lion appears'
-    },
+    { type: 'Must See', uid: 315968, content: 'i love that scene where the lion appears' },
     { type: 'Must See', uid: 126925, content: '[approved]' },
-    {
-      type: 'Must See',
-      uid: 263840,
-      content: 'Turns out it was all a dream!'
-    }
+    { type: 'Must See', uid: 263840, content: 'Turns out it was all a dream!' },
   ],
   url: 'http://www.mushi-pro.co.jp/2010/08/pipiピピ-とべないホタル/',
   creators: [{ id: 1249, type: 'Original Work', name: 'Test Creator Person' }],
-  resources: [
-    {
-      type: 6,
-      externalEntity: [{ ids: ['Test_method'], url: undefined }]
-    }
-  ],
+  resources: [{ type: 6, externalEntity: [{ ids: ['Test_method'], url: undefined }] }],
   tags: [
     {
       id: 30,
@@ -55,7 +41,7 @@ module.exports = {
       name: 'meta tags',
       description: 'These tags are used for maintenance.',
       pictureUrl: undefined,
-      updatedAt: '2014-09-10'
+      updatedAt: '2014-09-10',
     },
     {
       id: 6222,
@@ -66,8 +52,8 @@ module.exports = {
       name: 'test tag',
       description: 'Test http://anidb.net/t6222 [tag].',
       pictureUrl: '2247.gif',
-      updatedAt: '2017-09-01'
-    }
+      updatedAt: '2018-09-13',
+    },
   ],
   characters: [
     {
@@ -81,7 +67,7 @@ module.exports = {
       characterType: { id: 1, name: 'Character' },
       description: 'http://anidb.net/ch83058 [aa]',
       picture: '182624.jpg',
-      seiyuu: []
+      seiyuu: [],
     },
     {
       id: 78650,
@@ -95,7 +81,7 @@ module.exports = {
       description:
         '* list item 1\n\n* list item 2\n\n* unordered list item 1\n\n* unordered list item 2\n\n* ordered list item 1\n\n* ordered list item 2\n\nunordered without "li" 1\nunordered without "li" 2\nordered without "li" 1\nordered without "li" 2',
       picture: '61862.png',
-      seiyuu: []
+      seiyuu: [],
     },
     {
       id: 81061,
@@ -109,8 +95,8 @@ module.exports = {
       description:
         'TEST CHARACTER\n[hr]Gai is a large but good-natured guy, he was part of Benkei`s group when they ventured to the outside world after 13 years. After Benkei is injured by Invaders, he becomes pilot of Shin Getter-3. He is friends with Kei and seems to have a small crush on her. Gai is based on the character of Gai Daido from Getter Robo Go, but is different aside from appearance.',
       picture: '82082.jpg',
-      seiyuu: []
-    }
+      seiyuu: [],
+    },
   ],
   episodes: [
     {
@@ -120,16 +106,13 @@ module.exports = {
       type: 1,
       length: 25,
       airDate: undefined,
-      rating: 8.46,
+      rating: 8.47,
       votes: 4,
       titles: [
         { title: 'Please don`t go and remove this.', language: 'en' },
         { title: 'Der Dumme und sein Köter', language: 'de' },
-        {
-          title: 'Сказка об Иване-дураке и его двух братьях',
-          language: 'ru'
-        }
-      ]
+        { title: 'Сказка об Иване-дураке и его двух братьях', language: 'ru' },
+      ],
     },
     {
       id: 95960,
@@ -142,8 +125,8 @@ module.exports = {
       votes: null,
       titles: [
         { title: 'Episode 2', language: 'en' },
-        { title: 'owari to hajimari', language: 'x-jat' }
-      ]
+        { title: 'owari to hajimari', language: 'x-jat' },
+      ],
     },
     {
       id: 95961,
@@ -154,7 +137,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Episode 3,3', language: 'en' }]
+      titles: [{ title: 'Episode 3,3', language: 'en' }],
     },
     {
       id: 95962,
@@ -165,7 +148,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Episode 5', language: 'en' }]
+      titles: [{ title: 'Episode 5', language: 'en' }],
     },
     {
       id: 96884,
@@ -178,11 +161,8 @@ module.exports = {
       votes: null,
       titles: [
         { title: 'Test Edit', language: 'en' },
-        {
-          title: 'Eine Schallplatte für ein Königreich',
-          language: 'de'
-        }
-      ]
+        { title: 'Eine Schallplatte für ein Königreich', language: 'de' },
+      ],
     },
     {
       id: 108198,
@@ -193,7 +173,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Episode T1', language: 'en' }]
+      titles: [{ title: 'Episode T1', language: 'en' }],
     },
     {
       id: 108200,
@@ -204,7 +184,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Episode 6', language: 'en' }]
+      titles: [{ title: 'Episode 6', language: 'en' }],
     },
     {
       id: 108201,
@@ -215,7 +195,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Ending 1b', language: 'en' }]
+      titles: [{ title: 'Ending 1b', language: 'en' }],
     },
     {
       id: 108202,
@@ -226,7 +206,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Ending 1a', language: 'en' }]
+      titles: [{ title: 'Ending 1a', language: 'en' }],
     },
     {
       id: 108203,
@@ -237,7 +217,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'test3', language: 'en' }]
+      titles: [{ title: 'test3', language: 'en' }],
     },
     {
       id: 123029,
@@ -252,8 +232,8 @@ module.exports = {
         { title: 'Asdf', language: 'ja' },
         { title: 'Episode 7', language: 'en' },
         { title: 'Aaaa', language: 'de' },
-        { title: 'Er', language: 'ko' }
-      ]
+        { title: 'Er', language: 'ko' },
+      ],
     },
     {
       id: 123030,
@@ -268,8 +248,8 @@ module.exports = {
         { title: 'Bsdf', language: 'ja' },
         { title: 'Episode 8', language: 'en' },
         { title: 'Bbbb', language: 'de' },
-        { title: 'Fr', language: 'ko' }
-      ]
+        { title: 'Fr', language: 'ko' },
+      ],
     },
     {
       id: 136229,
@@ -283,8 +263,8 @@ module.exports = {
       titles: [
         { title: 'test2', language: 'ja' },
         { title: 'test', language: 'en' },
-        { title: 'test1', language: 'x-jat' }
-      ]
+        { title: 'test1', language: 'x-jat' },
+      ],
     },
     {
       id: 162675,
@@ -298,8 +278,8 @@ module.exports = {
       titles: [
         { title: 'S2 Test???', language: 'ja' },
         { title: 'S2 Test?', language: 'en' },
-        { title: 'S2 Test??', language: 'x-jat' }
-      ]
+        { title: 'S2 Test??', language: 'x-jat' },
+      ],
     },
     {
       id: 164116,
@@ -310,7 +290,7 @@ module.exports = {
       airDate: undefined,
       rating: null,
       votes: null,
-      titles: [{ title: 'Trailer add test', language: 'en' }]
-    }
-  ]
-}
+      titles: [{ title: 'Trailer add test', language: 'en' }],
+    },
+  ],
+};
