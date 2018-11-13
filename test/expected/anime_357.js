@@ -18,6 +18,12 @@ module.exports = {
     temporary: { score: '6.18', count: '265' },
     review: { score: '5.09', count: '7' },
   },
+  related: [],
+  similar: [
+    {
+      id: 4552, approval: 28, total: 29, name: 'Whatever you searched for is NOT anime...',
+    },
+  ],
   recommendations: [
     {
       type: 'For Fans',

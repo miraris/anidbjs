@@ -12,15 +12,17 @@ module.exports = [
     ratings: {
       permanent: { score: '395', count: '43' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 4597,
@@ -35,15 +37,17 @@ module.exports = [
     ratings: {
       permanent: { score: '827', count: '9759' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 7668,
@@ -58,15 +62,17 @@ module.exports = [
     ratings: {
       permanent: { score: '244', count: '188' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 238,
@@ -81,15 +87,17 @@ module.exports = [
     ratings: {
       permanent: { score: '693', count: '337' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 11980,
@@ -104,15 +112,17 @@ module.exports = [
     ratings: {
       permanent: { score: '529', count: '312' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 834,
@@ -127,15 +137,17 @@ module.exports = [
     ratings: {
       permanent: { score: '432', count: '5323' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 3706,
@@ -150,15 +162,17 @@ module.exports = [
     ratings: {
       permanent: { score: '595', count: '1900' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 3431,
@@ -173,15 +187,17 @@ module.exports = [
     ratings: {
       permanent: { score: '840', count: '1450' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 306,
@@ -196,15 +212,17 @@ module.exports = [
     ratings: {
       permanent: { score: '772', count: '3820' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
+    episodes: [],
   },
   {
     id: 11255,
@@ -219,14 +237,16 @@ module.exports = [
     ratings: {
       permanent: { score: '368', count: '697' },
       temporary: { score: undefined, count: undefined },
-      review: { score: undefined, count: undefined }
+      review: { score: undefined, count: undefined },
     },
+    related: [],
+    similar: [],
     recommendations: [],
     url: undefined,
     creators: [],
     resources: [],
     tags: [],
     characters: [],
-    episodes: []
-  }
-]
+    episodes: [],
+  },
+];
