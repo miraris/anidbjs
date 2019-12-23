@@ -4,7 +4,7 @@
   "description": "Promise-based AniDB client for Node.js.",
   "main": "lib/anidb.js",
   "dependencies": {
-    "got": "^9.3.2",
+    "got": "^10.2.0",
     "xml2js": "0.4.19"
   },
   "repository": {
