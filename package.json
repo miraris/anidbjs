@@ -4,8 +4,9 @@
   "description": "Promise-based AniDB client for Node.js.",
   "main": "lib/anidb.js",
   "dependencies": {
-    "got": "^9.3.2",
-    "xml2js": "0.4.19"
+    "assert-diff": "^3.0.2",
+    "got": "^11.8.1",
+    "xml2js": "0.4.23"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,10 @@
   },
   "homepage": "https://github.com/miraris/anidbjs",
   "devDependencies": {
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^6.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
     "objectdiff": "^1.1.0",
     "should": "^13.2.3"
   }

@@ -1153,6 +1153,7 @@ module.exports = {
         { title: 'Invasion', language: 'fr' },
         { title: 'Shinryaku', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 2,
@@ -1169,6 +1170,7 @@ module.exports = {
         { title: 'Les parents des Étoiles', language: 'fr' },
         { title: 'Hoshi-tachi no Kenzoku', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1009,
@@ -1185,6 +1187,7 @@ module.exports = {
         { title: 'Fuite à deux', language: 'fr' },
         { title: 'Futari dake no Toubou', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1010,
@@ -1201,6 +1204,7 @@ module.exports = {
         { title: 'La bataille du Gothlauth', language: 'fr' },
         { title: 'Gosroth no Tatakai', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1011,
@@ -1217,6 +1221,7 @@ module.exports = {
         { title: 'Attaque surprise', language: 'fr' },
         { title: 'Kishuu', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1012,
@@ -1233,6 +1238,7 @@ module.exports = {
         { title: 'La fille d`Amour', language: 'fr' },
         { title: 'Ai no Musume', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1013,
@@ -1249,6 +1255,7 @@ module.exports = {
         { title: 'Vers le champ de bataille', language: 'fr' },
         { title: 'Senjou e', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1014,
@@ -1265,6 +1272,7 @@ module.exports = {
         { title: 'Des gêneurs dans le firmament', language: 'fr' },
         { title: 'Amagakeru Meiwaku', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1015,
@@ -1281,6 +1289,7 @@ module.exports = {
         { title: 'La méthode Abh', language: 'fr' },
         { title: 'Abh no Ryuugi', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1016,
@@ -1297,6 +1306,7 @@ module.exports = {
         { title: 'La Dame du Chaos', language: 'fr' },
         { title: 'Wakuran no Shukujo', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1017,
@@ -1313,6 +1323,7 @@ module.exports = {
         { title: 'Heureuse révolte', language: 'fr' },
         { title: 'Shiawase na Hangyaku', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1018,
@@ -1329,6 +1340,7 @@ module.exports = {
         { title: 'La bataille du portail de Sfagnaumh', language: 'fr' },
         { title: 'Sufugnoff Mon Oki Kaisen', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 1019,
@@ -1345,6 +1357,7 @@ module.exports = {
         { title: 'Mystérieuses intrigues', language: 'fr' },
         { title: 'Fukakai na Inbou', language: 'x-jat' },
       ],
+      summary: null
     },
     {
       id: 120767,
@@ -1356,6 +1369,7 @@ module.exports = {
       rating: 3.81,
       votes: 1,
       titles: [{ title: 'Ending 2', language: 'en' }],
+      summary: null
     },
     {
       id: 120768,
@@ -1367,6 +1381,7 @@ module.exports = {
       rating: 5.7,
       votes: 1,
       titles: [{ title: 'Ending 1', language: 'en' }],
+      summary: null
     },
     {
       id: 120769,
@@ -1378,6 +1393,7 @@ module.exports = {
       rating: 3.81,
       votes: 1,
       titles: [{ title: 'Opening', language: 'en' }],
+      summary: null
     },
   ],
 };
