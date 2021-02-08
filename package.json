@@ -27,10 +27,8 @@
   "homepage": "https://github.com/miraris/anidbjs",
   "devDependencies": {
     "eslint": "^7.19.0",
-    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "mocha": "^8.2.1",
-    "objectdiff": "^1.1.0",
     "should": "^13.2.3"
   }
 }
